@@ -15,7 +15,7 @@ function startUp() {
     ]
 
     let msgLength = 0;
-    fetch('https://api.github.com/repos/The007who/behero-wiki').then(response => response.json())
+    fetch('https://api.github.com/repos/The007who/behero-wiki/commits').then(response => response.json())
     .then(data => {
         let commits = data.map(commit => {
             const date = commit.commit.author.date;
