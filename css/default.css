@@ -1,0 +1,127 @@
+body {
+    background-image: url("../resources/layout/home_sfondo.jpg"), url("../resources/layout/background_loop.jpg");
+	background-position: center top, center top;
+    background-repeat: no-repeat, repeat-y;
+
+    background-color: #d2a64d;
+    margin-top: 0;
+
+    color: #FFF;
+    width: 1000px;
+    margin: auto;
+
+    font-family: Arial;
+}
+
+.ghbutton {
+    position: absolute;
+    top: 60px;
+    margin-left: 830px; 
+}
+
+.ghbutton span {
+    display: flex;
+}
+
+
+.langSwitch {
+    position: absolute;
+    top: 272px;
+    margin-left: 832px;
+    width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-bar {
+    position: absolute;
+    top: 225px;
+    margin-left: 500px;
+    background-image: url('../resources/layout/campo_form.jpg');
+}
+
+.search-bar input {
+    background-color: transparent;
+    border: 0;
+    width: 152px;
+    height: 18px;
+    outline: none;
+}
+
+
+#text-outline {
+    text-shadow: -1px -1px 0 #3b3b3b, 1px -1px 0 #3b3b3b, -1px 1px 0 #3b3b3b, 1px 1px 0 #3b3b3b;
+}
+
+nav {
+    width: 685px; 
+    position: absolute; 
+    top: 136px; 
+    margin-left: 280px; 
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+
+.content {
+    display: flex;
+    font-size: 16px;
+}
+
+article {
+    width: 830px;
+}
+
+aside {
+    padding-left: 12px;
+}
+
+footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 830px;
+}
+
+footer section {
+    position: relative;
+    width: 270px;
+    margin-bottom: 15px;
+}
+
+footer section img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+}
+
+footer section div {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    margin-top: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-overflow: clip;
+    height: 145px
+
+}
+
+footer section div li {
+    margin-top: 5px;
+}
+
+footer section div li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1000px) {
+
+    body {
+        background-image: none;
+        background-color: black;
+    }
+}
