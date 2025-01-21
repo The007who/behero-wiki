@@ -32,7 +32,7 @@
         " alt="homebtn"></a></div>
         
         <div><a href="{{ 'pages/game' | relative_url }}"><img src="
-            {% if page.url == '/pages/game/' %}
+            {% if page.url contains '/game/' %}
                 {{ 'resources/layout/nav/game_s.png' | relative_url }}
             {% else %}
                 {{ 'resources/layout/nav/game.png' | relative_url }}
@@ -40,7 +40,7 @@
         " alt="gamebtn"></a></div>
 
         <div><a href="{{ 'pages/world' | relative_url }}"><img src="
-            {% if page.url == '/pages/world/' %}
+            {% if page.url contains '/world/' %}
                 {{ 'resources/layout/nav/world_s.png' | relative_url }}
             {% else %}
                 {{ 'resources/layout/nav/world.png' | relative_url }}
@@ -48,7 +48,7 @@
         " alt="worldbtn"></a></div>
 
         <div><a href="{{ 'pages/cards' | relative_url }}"><img src="
-            {% if page.url == '/pages/cards/' %}
+            {% if page.url contains '/cards/' or page.url contains '/collection/' %}
                 {{ 'resources/layout/nav/cards_s.png' | relative_url }}
             {% else %}
                 {{ 'resources/layout/nav/cards.png' | relative_url }}
@@ -56,7 +56,7 @@
         " alt="cardsbtn"></a></div>
 
         <div><a href="{{ 'pages/media' | relative_url }}"><img src="
-            {% if page.url == '/pages/media/' %}
+            {% if page.url contains '/media/' %}
                 {{ 'resources/layout/nav/media_s.png' | relative_url }}
             {% else %}
                 {{ 'resources/layout/nav/media.png' | relative_url }}
@@ -64,7 +64,7 @@
         " alt="mediabtn"></a></div>
 
         <div><a href="{{ 'pages/hardware' | relative_url }}"><img src="
-            {% if page.url == '/pages/hardware/' %}
+            {% if page.url contains '/hardware/' %}
                 {{ 'resources/layout/nav/hardware_s.png' | relative_url }}
             {% else %}
                 {{ 'resources/layout/nav/hardware.png' | relative_url }}
