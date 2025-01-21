@@ -33,6 +33,13 @@ body {
     justify-content: space-evenly;
 }
 
+.langSwitch button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 .search-bar {
     position: absolute;
     top: 225px;
