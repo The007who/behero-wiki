@@ -55,22 +55,22 @@ title: Cards
 
     <p>
         <!-- count how many cards -->
-        {% assign count = 0 %}
-        {% for collection in site.data.cardpages %}
-            {% for card in collection.cards %}
-                {% if card.confirmed == true %}
-                    {% assign count = count | plus: 1 %}
-                {% endif %}
-            {% endfor %}
-        {% endfor %}
+        {%- assign count = 0 -%}
+        {%- for collection in site.data.cardpages -%}
+            {%- for card in collection.cards -%}
+                {%- if card.confirmed == true -%}
+                    {%- assign count = count | plus: 1 -%}
+                {%- endif -%}
+            {%- endfor -%}
+        {%- endfor -%}
         Total confirmed cards: <span style="font-weight: bold;">{{ count }}/864 
             ({{ count | times: 100 | divided_by: 864 }}%)</span>
 
         <progress value="{{ count }}" max="864"></progress>
     </p>
 
-    {% assign ages = "Lost-Golden-Enchanted-Frozen-New-Nightmare" | split: '-' %}
-    {% for age in ages %}
+    {%- assign ages = "Lost-Golden-Enchanted-Frozen-New-Nightmare" | split: '-' -%}
+    {%- for age in ages -%}
         <h1 style="display: flex; align-items: center;">
             <div>{{ age }}</div>
             <img src="{{ 'resources/ageicons/' | append: age | downcase | replace: ' ', '-' | append: 'age-icon.png' | relative_url }}" 
@@ -78,18 +78,18 @@ title: Cards
             alt="ageicon">
         </h1>
         <ul>
-            {% for collection_list in site.data.cardpages %}
-                {% if collection_list.age == age %}
+            {%- for collection_list in site.data.cardpages -%}
+                {%- if collection_list.age == age -%}
                     <li>
                         <a style="font-weight: bold;" href="{{ collection_list.name_eng | datapage_url: 'collection' | relative_url }}">
                             <p class="ita-text">{{ collection_list.name_ita }}</p>
                             <p class="eng-text" style="display: none;">{{ collection_list.name_eng }}</p>
                         </a>
                     </li>
-                {% endif %}
-            {% endfor %}
+                {%- endif -%}
+            {%- endfor -%}
         </ul>
-    {% endfor %}
+    {%- endfor -%}
 
 </article>
 

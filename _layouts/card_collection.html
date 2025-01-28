@@ -16,14 +16,14 @@ title: {{ page.name_eng }}
         <p class="eng-text" style="display: none;">({{ page.guild_eng }})</p>
     </div>
 
-    <div class="ita-text"><p>{{ page.desc_ita }}</p></div>
-    <div class="eng-text" style="display: none;"><p>{{ page.desc_eng }}</p></div>
+    <div class="ita-text"><p>"{{ page.desc_ita }}"</p></div>
+    <div class="eng-text" style="display: none;"><p>"{{ page.desc_eng }}"</p></div>
 
 
     <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-end;">
-        {% for card in page.cards %}
+        {%- for card in page.cards -%}
             <div style="width: 30%;">
-                {% if card.confirmed == true %}
+                {%- if card.confirmed == true -%}
                     <img 
                     src="{{ 'resources/cards/' 
                             | append: page.name_eng
@@ -35,11 +35,11 @@ title: {{ page.name_eng }}
                             | relative_url }}" 
                     alt="card"
                     style="width: 100%;">
-                {% else %}
+                {%- else -%}
                     <img src="{{ 'resources/cards/backcard.jpg' | relative_url }}" 
                     alt="not-confirmed-card"
                     style="width: 100%; filter: grayscale(100%);">
-                {% endif %}
+                {%- endif -%}
                 <div style="font-weight: bold;">
                     <p class="ita-text">{{ card.name_ita }}</p>
                     <p class="eng-text" style="display: none;">{{ card.name_eng }}</p>
@@ -49,7 +49,7 @@ title: {{ page.name_eng }}
                 <p>Speed: {{ card.speed[0] }}|{{ card.speed[1] }}</p>
                 <p>Barcode: {{ card.barcode }}</p>
             </div>
-        {% endfor %}
+        {%- endfor -%}
     </div>
 
 
