@@ -40,6 +40,10 @@ body {
     cursor: pointer;
 }
 
+.eng-text {
+    display: none;
+}
+
 .search-bar {
     position: absolute;
     top: 225px;

@@ -7,17 +7,17 @@ title: {{ page.name_eng }}
 
     <div style="display: flex; align-items: center;">
         <div class="ita-text"><h1>{{ page.name_ita }}</h1></div>
-        <div class="eng-text" style="display: none;"><h1>{{ page.name_eng }}</h1></div>
+        <div class="eng-text"><h1>{{ page.name_eng }}</h1></div>
         <img 
         src="{{ 'resources/ageicons/' | append: page.age | downcase | replace: ' ', '-' | append: 'age-icon.png' | relative_url }}" 
         alt="age-icon"
         style="width: 5%; margin: 2%;">
         <p class="ita-text">({{ page.guild_ita }})</p>
-        <p class="eng-text" style="display: none;">({{ page.guild_eng }})</p>
+        <p class="eng-text">({{ page.guild_eng }})</p>
     </div>
 
     <div class="ita-text"><p>"{{ page.desc_ita }}"</p></div>
-    <div class="eng-text" style="display: none;"><p>"{{ page.desc_eng }}"</p></div>
+    <div class="eng-text"><p>"{{ page.desc_eng }}"</p></div>
 
 
     <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-end;">
@@ -42,7 +42,7 @@ title: {{ page.name_eng }}
                 {%- endif -%}
                 <div style="font-weight: bold;">
                     <p class="ita-text">{{ card.name_ita }}</p>
-                    <p class="eng-text" style="display: none;">{{ card.name_eng }}</p>
+                    <p class="eng-text">{{ card.name_eng }}</p>
                 </div>
                 <p>Attack: {{ card.attack[0] }}|{{ card.attack[1] }}</p>
                 <p>Defense: {{ card.defense[0] }}|{{ card.defense[1] }}</p>

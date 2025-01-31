@@ -3,38 +3,62 @@ layout: default
 title: Home
 ---
 
+<style type="text/css" media="screen">
+    .image-text-holder {
+        position: relative;
+    }
+    .text-holder {
+        position: absolute;
+    }
+    .welcome-text {
+        top: 25%; 
+        left: 50%; 
+        color: white;
+        width: 40%; 
+        font-size: larger;
+    }
+    .welcome-text a {
+        color: inherit;
+    }
+    .synopsis-header {
+        top: 3.5%; 
+        left: 2%; 
+        color: white;
+    }
+    .synopsis-header h1 {
+        margin: 0;
+    }
+
+</style>
+
 <article>
-    <div style="position: relative;">
+    <div class="image-text-holder">
         <img src="{{ 'resources/layout/home_box.jpg' | relative_url }}" alt="home_box" draggable="false">
-        <div style=
-            "position: absolute; top: 25%; left: 50%; color: white; 
-            width: 40%; font-size: larger;"
-            id="text-outline">
+        <div class="text-holder welcome-text" id="text-outline">
             <p class="ita-text">
                 Il BeHero è un giocattolo creato da Giochi Preziosi nel 2010.
                 Era composto da un gioco RPG portatile che utilizzava i codici a barre dal gioco di carte.
                 <br><br>
                 Questa wiki è stata ideata per sembrare come il sito originale. Non è più online e
-                solamente accessibile tramite il <a style="color: inherit;" href="https://web.archive.org/web/20100726130625/http://www.behero.it:80/home/index.html">Wayback Machine</a>.
+                solamente accessibile tramite il <a href="https://web.archive.org/web/20100726130625/http://www.behero.it:80/home/index.html">Wayback Machine</a>.
             </p>
-            <p class="eng-text" style="display: none;">
+            <p class="eng-text">
                 The BeHero is a toy released by Giochi Preziosi in 2010.
                 It consisted of a handheld RPG game that used scanning codes from the card game.
                 <br><br>
                 This wiki has been designed to look like the original website. It is no longer online
-                and only accessible through the <a style="color: inherit;" href="https://web.archive.org/web/20100726130625/http://www.behero.it:80/home/index.html">Wayback Machine</a>.
+                and only accessible through the <a href="https://web.archive.org/web/20100726130625/http://www.behero.it:80/home/index.html">Wayback Machine</a>.
             </p>
         </div>
     </div>
 
 
-    <div style="position: relative; margin-bottom: 12px;">
+    <div class="image-text-holder" style="margin-bottom: 12px;">
         <img src="{{ 'resources/layout/home_centrale.jpg' | relative_url }}" alt="home_centrale" draggable="false">
-        <div style=
-        "position: absolute; top: 3.5%; left: 2%; color: white;">
-            <h1 style="margin: 0;">
+        <div class="text-holder synopsis-header">
+            <h1>
                 <div class="ita-text">Introduzione</div>
-                <div class="eng-text" style="display: none;">Introduction</div>
+                <div class="eng-text">Introduction</div>
             </h1>
 
         </div>
@@ -59,7 +83,7 @@ title: Home
                 Sephaestion
                 è ora in cerca di questo coraggioso eroe... sarai tu quell'eroe?
             </p>
-            <p class="eng-text" style="display: none;">
+            <p class="eng-text">
                 A world parallel to yours is in grave danger. There, the natural progression of Time has been
                 interrupted by the forces of Evil.<br><br>
                 The Dark Demon Lord, Necare, is plotting to conquer time
