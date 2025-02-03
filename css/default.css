@@ -40,6 +40,10 @@ body {
     cursor: pointer;
 }
 
+.langSwitch button:active {
+    transform: translateY(2px); /* Move the button down by 2px */
+}
+
 .eng-text {
     display: none;
 }

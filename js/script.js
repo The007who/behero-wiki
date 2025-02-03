@@ -74,18 +74,3 @@ function switchLangText() {
     }
 }
 
-
-// function imageClick2 () {
-//     const image = document.getElementsByClassName('content');
-// 
-//     image.addEventListener('click', () => {
-//         const currentScale = getComputedStyle(image)
-//             .getPropertyValue('transform')
-//             .split(' ')[0]
-//             .replace('scale(', '')
-//             .replace(')', '');
-// 
-//         const newScale = parseFloat(currentScale) + 0.5;
-//         image.style.transform = `scale(${newScale})`;
-//     });
-// }

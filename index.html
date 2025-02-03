@@ -20,6 +20,9 @@ title: Home
     .welcome-text a {
         color: inherit;
     }
+    .synopsis-container {
+        margin-bottom: 12px;
+    }
     .synopsis-header {
         top: 3.5%; 
         left: 2%; 
@@ -27,6 +30,12 @@ title: Home
     }
     .synopsis-header h1 {
         margin: 0;
+    }
+    .synopsis-text {
+        top: 12.5%; 
+        color: white; 
+        left: 2%; 
+        width: 80%;
     }
 
 </style>
@@ -53,7 +62,7 @@ title: Home
     </div>
 
 
-    <div class="image-text-holder" style="margin-bottom: 12px;">
+    <div class="image-text-holder">
         <img src="{{ 'resources/layout/home_centrale.jpg' | relative_url }}" alt="home_centrale" draggable="false">
         <div class="text-holder synopsis-header">
             <h1>
@@ -62,9 +71,7 @@ title: Home
             </h1>
 
         </div>
-        <div style=
-            "position: absolute; top: 10%; color: white; 
-            left: 2%; width: 80%;">
+        <div class="text-holder synopsis-text">
             <p class="ita-text">
                 Un mondo parallelo al nostro mondo è in grave pericolo. Il naturale scorrere del Tempo è stato
                 interrotto dalle forze del male.<br><br>

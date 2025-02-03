@@ -2,8 +2,13 @@
 layout: default
 title: {{ page.name_eng }}
 ---
+<style>
+    
+
+</style>
 <article>
-    <a href="{{ 'pages/cards' | relative_url }}"><- Cards Page</a>
+    
+    <button onclick="history.go(-1); return false;"><= Cards Page</button>
 
     <div style="display: flex; align-items: center;">
         <div class="ita-text"><h1>{{ page.name_ita }}</h1></div>

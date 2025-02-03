@@ -4,6 +4,17 @@ title: Cards
 ---
 
 <style type="text/css" media="screen">
+    
+    .back-and-pack {
+        display: flex; 
+        justify-content: space-evenly; 
+        align-items: flex-end;
+    }
+    .back-and-pack div {
+        width: 30%;
+    }
+
+    
     progress {
         border-radius: 7px;
         width: 100%;
@@ -31,12 +42,12 @@ title: Cards
     </p>
 
     <hr>
-    <div style="display: flex; justify-content: space-evenly; align-items: flex-end;">
-        <div style="width: 30%;">
+    <div class="back-and-pack">
+        <div>
             <img src="{{ 'resources/cards/backcard.jpg' | relative_url }}" alt="backcard" width="100%">
             <p>Back of the card</p>
         </div>
-        <div style="width: 30%;">
+        <div>
             <img src="{{ 'resources/cards/pack.jpg' | relative_url }}" alt="backcard" width="100%">
             <p>Pack</p>
         </div>
