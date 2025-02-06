@@ -148,4 +148,18 @@ footer section div li a {
         align-items: center;
         font-size: 38px;
     }
+    .content article {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    footer section {
+        width: 1rem;
+    }
 }
