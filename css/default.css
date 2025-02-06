@@ -133,10 +133,19 @@ footer section div li a {
     color: white;
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-device-width:1024px), (orientation:portrait) {
 
     body {
         background-image: none;
         background-color: black;
+    }
+    img[alt="header"] {
+        width: 95%;
+        margin: auto;
+    }
+    .content {
+        flex-direction: column-reverse;
+        align-items: center;
+        font-size: 38px;
     }
 }
