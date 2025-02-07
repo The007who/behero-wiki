@@ -2,6 +2,14 @@
 layout: default
 title: Hardware
 ---
+<style>
+    .bold-text {
+        font-weight: bold;
+    }
+    .image-sequence {
+        display: flex;
+    }
+</style>
 
 <article>
     <h1>Hardware Page</h1>
@@ -13,23 +21,23 @@ title: Hardware
             <br><br>
             Mainboard(side A):
             <ul>
-                <li><span style="font-weight: bold;">AVS641604L-6TE</span>: There is a struggle to find information about this
+                <li><span class="bold-text">AVS641604L-6TE</span>: There is a struggle to find information about this
                     specific chip.
                 </li>
-                <li><span style="font-weight: bold;">GPR27P512A-006A 3D74270081 (?)102812</span>: This chip seems to be a TSOP device manufactured by GT.
+                <li><span class="bold-text">GPR27P512A-006A 3D74270081 (?)102812</span>: This chip seems to be a TSOP device manufactured by GT.
                     The data sheet can be found <a href="https://www.alldatasheet.com/datasheet-pdf/view/1148038/GENERALPLUS/GPR27P512A.html">here</a>.
                 </li>
             </ul>
             Mainboard(side B):
             <ul>
-                <li><span style="font-weight: bold;">324ST e4 N009013</span>: This seems to be a EEPROM manufactured by STMicroelectronics.
+                <li><span class="bold-text">324ST e4 N009013</span>: This seems to be a EEPROM manufactured by STMicroelectronics.
                     The chip is similar to the M95P32-I, which is a 
                     low-power 32 Mbit Serial SPI Page EEPROM.
                     <br>
                     Next to it there are two test pads, so it likely uses the I2C interface.
                     This is likely where the game data is saved.
                 </li>
-                <li><span style="font-weight: bold;">FT24C08A</span>: It's a 1KB EEPROM with a SPI interface made by Fremont. 
+                <li><span class="bold-text">FT24C08A</span>: It's a 1KB EEPROM with a SPI interface made by Fremont. 
                     2.5V to 5.5V. I2C memory interface.
                     <br>
                     1KB for the whole game is very 
@@ -42,7 +50,7 @@ title: Hardware
     </p>
 
     <p>Images of the console:</p>
-    <div style="display: flex;">
+    <div class="image-sequence">
         <img src="{{ 'resources/hardware/IMG20240218181020.jpg'| relative_url }}" width="25%">
         <img src="{{ 'resources/hardware/IMG20240218181048.jpg'| relative_url }}" width="25%">
         <img src="{{ 'resources/hardware/IMG20240218181102.jpg'| relative_url }}" width="25%">
