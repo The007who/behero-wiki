@@ -11,11 +11,9 @@ title: World
         margin-left: 2%;
     }
     .guild {
-        position: relative;
         margin-bottom: 12px;
     }
     .guild header {
-        position: absolute; 
         top: 3.5%; 
         left: 2%; 
         color: white;
@@ -24,7 +22,6 @@ title: World
         margin: 0;
     }
     .guild section {
-        position: absolute; 
         top: 15%; 
         color: white; 
         left: 2%;
@@ -173,18 +170,17 @@ title: World
         </section>
     </div>
 
-    <div class="guild">
+    <div class="image-text-holder guild">
         <img src="{{ 'resources/layout/fondo_gilde_1.jpg' | relative_url }}" alt="fondo_gilde_1" draggable="false">
 
-        <header>
+        <header class="text-holder">
             <h1>
                 <div class="ita-text">Le Sei Gilde</div>
                 <div class="eng-text">The Six Guilds</div>
             </h1>
-
         </header>
 
-        <section>
+        <section class="text-holder">
 
             <!-- Warrior Guild-->
             <p class="ita-text">
@@ -238,12 +234,10 @@ title: World
         </section>
     </div>
 
-    <div class="guild">
+    <div class="image-text-holder guild">
         <img src="{{ 'resources/layout/home_centrale.jpg' | relative_url }}" alt="home_centrale" draggable="false">
 
-        <section style=
-            "position: absolute; top: 15%; color: white; 
-            left: 2%; width: 90%;">
+        <section class="text-holder" style="width: 90%;">
             
             <!-- Alchemist Guild -->
             <p class="ita-text">
@@ -305,7 +299,7 @@ title: World
                 no one can see them. This is why the enemy won't realize when you will inflict
                 a double attack!
             </p>
-        </div>
+        </section>
     </div>
 </article>
 

@@ -63,6 +63,12 @@ body {
     outline: none;
 }
 
+.image-text-holder {
+    position: relative;
+}
+.text-holder {
+    position: absolute;
+}
 
 #text-outline {
     text-shadow: -1px -1px 0 #3b3b3b, 1px -1px 0 #3b3b3b, -1px 1px 0 #3b3b3b, 1px 1px 0 #3b3b3b;
@@ -138,11 +144,24 @@ footer section div li a {
     body {
         background-image: none;
         background-color: black;
+        width: auto;
+    }
+    body > * {
+        margin: auto;
+        width: auto;
     }
     img[alt="header"] {
-        width: 95%;
+        width: 100%;
         margin: auto;
     }
+
+    .image-text-holder img {
+        display: none;
+    }
+    .text-holder {
+        position: relative;
+    }
+
     .content {
         flex-direction: column-reverse;
         align-items: center;
