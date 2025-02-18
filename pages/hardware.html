@@ -21,27 +21,23 @@ title: Hardware
             <br><br>
             Mainboard(side A):
             <ul>
-                <li><span class="bold-text">AVS641604L-6TE</span>: There is a struggle to find information about this
-                    specific chip.
-                </li>
-                <li><span class="bold-text">GPR27P512A-006A 3D74270081 (?)102812</span>: This chip seems to be a TSOP device manufactured by GT.
+                <li><span class="bold-text">AVS641604L-6TE</span>: This is quite possibly RAM.</li>
+                <li><span class="bold-text">GPR27P512A-006A 3D74270081 (?)102812</span>: A 512M-BIT NAND interface
+                    with OTP. This is very likely where the game is stored.
                     The data sheet can be found <a href="https://www.alldatasheet.com/datasheet-pdf/view/1148038/GENERALPLUS/GPR27P512A.html">here</a>.
                 </li>
             </ul>
             Mainboard(side B):
             <ul>
-                <li><span class="bold-text">324ST e4 N009013</span>: This seems to be a EEPROM manufactured by STMicroelectronics.
-                    The chip is similar to the M95P32-I, which is a 
-                    low-power 32 Mbit Serial SPI Page EEPROM.
-                    <br>
-                    Next to it there are two test pads, so it likely uses the I2C interface.
-                    This is likely where the game data is saved.
+                <li><span class="bold-text">324ST e4 N009013</span>: This chip is a LM324, a quad opamp possibly
+                    for audio.
                 </li>
-                <li><span class="bold-text">FT24C08A</span>: It's a 1KB EEPROM with a SPI interface made by Fremont. 
+                <li><span class="bold-text">FT24C08A</span>: It's a 1KB EEPROM made by Fremont. 
                     2.5V to 5.5V. I2C memory interface.
                     <br>
                     1KB for the whole game is very 
                     unlikely, maybe data only for booting or saves.
+                    The data sheet can be found <a href="https://www.lcsc.com/datasheet/lcsc_datasheet_1809172038_FMD-Fremont-Micro-Devices-FT24C08A-ELR-T_C232869.pdf">here</a>.
                 </li>
             </ul>
         </p>

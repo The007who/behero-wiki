@@ -83,6 +83,9 @@ nav {
     justify-content: space-evenly;
 }
 
+nav a {
+    text-decoration: none;
+}
 
 .content {
     display: flex;
@@ -149,10 +152,13 @@ footer section div li a {
     body > * {
         margin: auto;
         width: auto;
+        position: relative;
     }
     img[alt="header"] {
-        width: 100%;
-        margin: auto;
+        display: none;
+    }
+    nav {
+        justify-content: space-around;
     }
 
     .image-text-holder img {
@@ -180,5 +186,11 @@ footer section div li a {
     }
     footer section {
         width: 1rem;
+    }
+    footer section img {
+        position: relative;
+        left: auto;
+        right: auto;
+        
     }
 }
