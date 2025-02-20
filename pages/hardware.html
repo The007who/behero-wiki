@@ -3,6 +3,9 @@ layout: default
 title: Hardware
 ---
 <style>
+    .chip-images {
+        width: 40%;
+    }
     .bold-text {
         font-weight: bold;
     }
@@ -14,37 +17,6 @@ title: Hardware
 <article>
     <h1>Hardware Page</h1>
 
-    <p>
-        <h1>Inner workings of the console:</h1>
-        <p>
-            The console is comprised of two boards, the mainboard and the input board:
-            <br><br>
-            Mainboard(side A):
-            <ul>
-                <li><span class="bold-text">AVS641604L-6TE</span>: This is quite possibly RAM.</li>
-                <li><span class="bold-text">GPR27P512A-006A 3D74270081 (?)102812</span>: A 512M-BIT NAND interface
-                    with OTP. This is very likely where the game is stored.
-                    The data sheet can be found <a href="https://www.alldatasheet.com/datasheet-pdf/view/1148038/GENERALPLUS/GPR27P512A.html">here</a>.
-                </li>
-            </ul>
-            Mainboard(side B):
-            <ul>
-                <li><span class="bold-text">324ST e4 N009013</span>: This chip is a LM324, a quad opamp possibly
-                    for audio.
-                </li>
-                <li><span class="bold-text">FT24C08A</span>: It's a 1KB EEPROM made by Fremont. 
-                    2.5V to 5.5V. I2C memory interface.
-                    <br>
-                    1KB for the whole game is very 
-                    unlikely, maybe data only for booting or saves.
-                    The data sheet can be found <a href="https://www.lcsc.com/datasheet/lcsc_datasheet_1809172038_FMD-Fremont-Micro-Devices-FT24C08A-ELR-T_C232869.pdf">here</a>.
-                </li>
-            </ul>
-        </p>
-        <hr>
-        You can find a <code>.odt</code> version of the hardware documentation <a href="https://github.com/The007who/behero-decomp/blob/main/docs/hardware-documentation.odt">here</a>.
-    </p>
-
     <p>Images of the console:</p>
     <div class="image-sequence">
         <img src="{{ 'resources/hardware/IMG20240218181020.jpg'| relative_url }}" width="25%">
@@ -52,6 +24,50 @@ title: Hardware
         <img src="{{ 'resources/hardware/IMG20240218181102.jpg'| relative_url }}" width="25%">
         <img src="{{ 'resources/hardware/IMG20240218181111.jpg'| relative_url }}" width="25%">
     </div>
+    
+    <hr>
+
+    <p>
+        <h1>Inner workings of the console:</h1>
+        <p>
+            The console is comprised of two boards, the mainboard and the input board:
+            <br><br>
+            Mainboard(side A):
+            <ul>
+                <li><span class="bold-text">AVS641604L-6TE</span>: This is quite possibly RAM.
+                    <br>
+                    <img class="chip-images" src="{{ 'resources/hardware/avs.jpg' | relative_url }}" alt="avs">
+                </li>
+                <li><span class="bold-text">GPR27P512A-006A 3D74270081 a102812</span>: A 512M-BIT NAND interface
+                    with OTP. This is very likely where the game is stored.
+                    The data sheet can be found <a href="https://www.alldatasheet.com/datasheet-pdf/view/1148038/GENERALPLUS/GPR27P512A.html">here</a>.
+                    <br>
+                    <img class="chip-images" src="{{ 'resources/hardware/gpr.jpg' | relative_url }}" alt="gpr">
+                </li>
+            </ul>
+            Mainboard(side B):
+            <ul>
+                <li><span class="bold-text">324ST e4 N009013</span>: This chip is a LM324, a quad opamp possibly
+                    for audio.
+                    <br>
+                    <img class="chip-images" src="{{ 'resources/hardware/324.jpg' | relative_url}}" alt="324">
+                </li>
+                <li><span class="bold-text">FT24C08A</span>: It's a 1KB EEPROM made by Fremont. 
+                    2.5V to 5.5V. I2C memory interface.
+                    <br>
+                    1KB for the whole game is very 
+                    unlikely, maybe data only for booting or saves.
+                    The data sheet can be found <a href="https://www.lcsc.com/datasheet/lcsc_datasheet_1809172038_FMD-Fremont-Micro-Devices-FT24C08A-ELR-T_C232869.pdf">here</a>.
+                    <br>
+                    <img class="chip-images" src="{{ 'resources/hardware/ft24.jpg' | relative_url }}" alt="ft24">
+                </li>
+            </ul>
+        </p>
+        
+        You can find a <code>.odt</code> version of the hardware documentation <a href="https://github.com/The007who/behero-decomp/blob/main/docs/hardware-documentation.odt">here</a>.
+    </p>
+
+    
 </article>
 
 <aside>
