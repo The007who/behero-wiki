@@ -27,7 +27,7 @@ title: {{ page.name_eng }}
 
     <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-end;">
         {%- for card in page.cards -%}
-            <div style="width: 30%;">
+            <div style="width: 30%; border: solid 0.2rem #d2a64d; border-radius: 1em; padding: 0.5em; margin-bottom: 1em;">
                 {%- if card.confirmed == true -%}
                     <img 
                     src="{{ 'resources/cards/' 
@@ -54,13 +54,15 @@ title: {{ page.name_eng }}
                 <p>Speed: {{ card.speed[0] }}|{{ card.speed[1] }}</p>
                 <p>Barcode: {{ card.barcode }}</p>
                 
-                {%- if card.author -%}
-                    <p class="ita-text">Caricato da: {{ card.author }}</p>
-                    <p class="eng-text">Uploaded by: {{ card.author }}</p>
-                {%- else -%}
-                    <p class="ita-text">Caricato da: The007who</p>
-                    <p class="eng-text">Uploaded by: The007who</p>
-                {%- endif -%}
+                <div style="border: solid 0.2rem #d2a64d; border-radius: 1em; padding: 0.2em;">
+                    {%- if card.author -%}
+                        <p class="ita-text">Caricato da: {{ card.author }}</p>
+                        <p class="eng-text">Uploaded by: {{ card.author }}</p>
+                    {%- else -%}
+                        <p class="ita-text">Caricato da: The007who</p>
+                        <p class="eng-text">Uploaded by: The007who</p>
+                    {%- endif -%}
+                </div>
             </div>
         {%- endfor -%}
     </div>
