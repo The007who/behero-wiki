@@ -40,6 +40,9 @@ title: Cards
         border-radius: 7px;
         box-shadow: 1px 1px 5px 3px #000000;
     }
+    ul li a p:hover{
+        color: #d2a64d;
+    }
 
 </style>
 
@@ -103,10 +106,10 @@ title: Cards
                 </h1>
             </div>
             <div class="text-holder collection-list-text">
-                <ul style="display: flex; flex-direction: column; flex-wrap: wrap; align-content: flex-start; height: 21em;">
+                <ul style="display: flex; flex-direction: column; flex-wrap: wrap; align-content: flex-start; height: 21em; padding-left: 3%;">
                     {%- for collection_list in site.data.cardpages -%}
                         {%- if collection_list.age == age -%}
-                            <li style="padding-right: 2em;">
+                            <li style="padding-right: 2.5em;">
                                 <a style="font-weight: bold; color: white;" href="{{ collection_list.name_eng | datapage_url: 'collection' | relative_url }}">
                                     <p class="ita-text">{{ collection_list.name_ita }}</p>
                                     <p class="eng-text">{{ collection_list.name_eng }}</p>

@@ -23,6 +23,11 @@ body {
     display: flex;
 }
 
+.discordbtn {
+    position: absolute;
+    margin-left: 790px;
+    top: 60px;
+}
 
 .langSwitch {
     position: absolute;

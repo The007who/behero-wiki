@@ -30,14 +30,11 @@ title: {{ page.name_eng }}
             <div style="width: 30%; border: solid 0.2rem #d2a64d; border-radius: 1em; padding: 0.5em; margin-bottom: 1em;">
                 {%- if card.confirmed == true -%}
                     <img 
-                    src="{{ 'resources/cards/' 
-                            | append: page.name_eng
-                            | append: '/'
-                            | append: card.name_eng
-                            | downcase 
-                            | replace: ' ', '-'
-                            | append: '.jpg'
-                            | relative_url }}" 
+                    src="
+                        {{ 'resources/cards/' 
+                            | append: card.image_path
+                            | relative_url }}
+                    "
                     alt="card"
                     style="width: 100%;">
                 {%- else -%}
