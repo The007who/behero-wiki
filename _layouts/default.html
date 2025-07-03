@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="behero, be hero, combatti, giochipreziosi, gioco, giochi, digitalpreziosi">
 
-    <title>{{ page.title }} » BeHero Wiki</title>
     <link rel="stylesheet" href="{{ 'css/default.css' | relative_url }}">
     <link rel="shortcut icon" href="{{ 'resources/layout/icon.ico' | relative_url }}">
-    <script src="{{ 'js/script.js' | relative_url }}"></script>
+    <script src="{{ 'js/main.js' | relative_url }}"></script>
     {%- seo -%}
+
+    <title>{{ page.title }} » BeHero Wiki</title>
 </head>
 <body onload="startUp();">
 
@@ -79,10 +80,6 @@
 
     </nav>
 
-    <div class="search-bar">
-        <input type="text">
-    </div>
-
 
     <div class="langSwitch">
         <button onclick="buttonLang('ita');"><img src="{{ 'resources/layout/nav/ita.png' | relative_url }}" alt="itabtn"></button>
@@ -112,6 +109,14 @@
             </a>
         </section>
     </footer>
+
+    <p style="text-align: center;">Big thanks to the contributors:</p>
+    <p style="text-align: center;">
+        {%- for contributor in site.data.contributors -%}
+            {%- assign color = forloop.index0 | times: 30 | modulo: 400 -%}
+            <span style="color: hsl({{ color }}, 100%, 50%)">{{ contributor }}</span>
+        {%- endfor -%}
+    </p>
 
 
 </body>

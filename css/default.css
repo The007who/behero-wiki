@@ -29,6 +29,10 @@ body {
     top: 60px;
 }
 
+.discordbtn :active {
+    transform: translateY(2px); /* Move the button down by 2px */
+}
+
 .langSwitch {
     position: absolute;
     top: 272px;
@@ -53,20 +57,6 @@ body {
     display: none;
 }
 
-.search-bar {
-    position: absolute;
-    top: 225px;
-    margin-left: 500px;
-    background-image: url('../resources/layout/campo_form.jpg');
-}
-
-.search-bar input {
-    background-color: transparent;
-    border: 0;
-    width: 152px;
-    height: 18px;
-    outline: none;
-}
 
 .image-text-holder {
     position: relative;

@@ -2,10 +2,7 @@
 layout: default
 title: {{ page.name_eng }}
 ---
-<style>
-    
-
-</style>
+<style></style>
 <article>
     
     <button onclick="history.go(-1); return false;"><= Cards Page</button>
@@ -29,14 +26,16 @@ title: {{ page.name_eng }}
         {%- for card in page.cards -%}
             <div style="width: 30%; border: solid 0.2rem #d2a64d; border-radius: 1em; padding: 0.5em; margin-bottom: 1em;">
                 {%- if card.confirmed == true -%}
-                    <img 
-                    src="
-                        {{ 'resources/cards/' 
-                            | append: card.image_path
-                            | relative_url }}
-                    "
-                    alt="card"
-                    style="width: 100%;">
+                    <a href="{{ 'resources/cards/' | append: card.image_path | relative_url }}">
+                        <img
+                        src="
+                            {{ 'resources/cards/' 
+                                | append: card.image_path
+                                | relative_url }}
+                        "
+                        alt="card"
+                        style="width: 100%;">
+                    </a>
                 {%- else -%}
                     <img src="{{ 'resources/cards/backcard.jpg' | relative_url }}" 
                     alt="not-confirmed-card"
