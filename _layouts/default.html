@@ -13,6 +13,9 @@
     <title>{{ page.title }} » BeHero Wiki</title>
 </head>
 <body onload="startUp();">
+    <script>
+        const BASE_URL = '{{ site.baseurl }}';
+    </script>
 
     <img src="{{ 'resources/layout/header.jpg' | relative_url }}" alt="header" draggable="false" style="margin-bottom: 3px;">
 

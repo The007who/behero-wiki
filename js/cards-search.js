@@ -29,14 +29,14 @@ function makeSearch() {
 		html += `<div style="width: 30%; border: solid 0.2rem #d2a64d; border-radius: 1em; padding: 0.5em; margin-bottom: 1em;">`;
 		
 		// link
-		html += `<a href=/collection/` + element.item.collection_name + `>`;
+		html += `<a href=`+ BASE_URL + `/collection/` + element.item.collection_name + `>`;
 
 		// image
 		if (element.item.confirmed == true) {
-			html += `<img src=/resources/cards/`;
+			html += `<img src=` + BASE_URL + `/resources/cards/`;
 			html += element.item.image_path + ` style="width: 100%;">`;
 		} else {
-			html += `<img src=/resources/cards/backcard.jpg style="width: 100%; filter: grayscale(100%);">`
+			html += `<img src=` + BASE_URL + `/resources/cards/backcard.jpg style="width: 100%; filter: grayscale(100%);">`
 		}
 		html += `</a>`;
 		
