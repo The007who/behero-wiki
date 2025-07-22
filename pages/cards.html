@@ -120,7 +120,7 @@ title: Cards
     <h1>Card List</h1>
     <div style="display: flex; margin: 1em; justify-content: center;">
         <div class="search-bar">
-            <input type="text" id="search-query" name="q" placeholder="Card..." autocomplete="off">
+            <input type="text" id="search-query" name="q" onkeydown="if(event.key === 'Enter') makeSearch();" placeholder="Card..." autocomplete="off">
         </div>
         <img onclick="makeSearch();" class="search-btn" src="{{ 'resources/layout/pulsante-vai.jpg' | relative_url }}" alt="submit">
     </div>

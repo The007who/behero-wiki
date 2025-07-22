@@ -14,6 +14,9 @@ for collection in data:
             'confirmed': card['confirmed'],
             'collection_name': slugify(collection['name_eng'])
         }
+        if 'author' in card:
+            new_card['author'] = card['author']
+
         new_data.append(new_card)
 
 with open("_data/card-database.json", "w") as file:
