@@ -12,7 +12,15 @@ body {
 
     font-family: Arial;
 }
-
+img[alt="header"] {
+    margin-bottom: 3px;
+}
+img[alt="header-alt"] {
+    display: none;
+}
+img[alt="discord-btn"] {
+    height: 30px;
+}
 .ghbutton {
     position: absolute;
     top: 60px;
@@ -136,35 +144,76 @@ footer section div li a {
     text-decoration: none;
     color: white;
 }
+#thanks p {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#thanks span {
+    margin-right: 1ch;
+}
 
 @media screen and (max-device-width:1024px), (orientation:portrait) {
-
     body {
         background-image: none;
-        background-color: black;
-        width: auto;
+        width: 85%;
     }
     body > * {
         margin: auto;
         width: auto;
-        position: relative;
+        position: static;
     }
     img[alt="header"] {
         display: none;
     }
-    nav {
-        justify-content: space-around;
+    img[alt="header-alt"] {
+        display: block;
+        width: 50%;
     }
-
+    .top-buttons {
+        display: flex;
+    }
+    .discordbtn {
+        position: static;
+        margin: 0;
+    }
+    .ghbutton {
+        position: static;
+        margin: 0;
+    }
+    .langSwitch {
+        position: static;
+        margin: 0;
+        width: auto;
+    }
+    .langSwitch button {
+        border: solid black;
+        border-radius: 1em;
+    }
+    nav {
+        margin: 2.5%;
+        border: solid black;
+        border-radius: 1em;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav div {
+        padding-bottom: 3%;
+        padding-top: 3%;
+    }
     .image-text-holder img {
         display: none;
     }
     .text-holder {
-        position: relative;
+        position: static;
+        width: auto;
     }
-
+    .welcome-text {
+        width: auto;
+    }
     .content {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         font-size: 38px;
     }
@@ -183,9 +232,14 @@ footer section div li a {
         width: 1rem;
     }
     footer section img {
-        position: relative;
+        position: static;
         left: auto;
         right: auto;
         
+    }
+    #thanks {
+        background-color: black;
+        padding: 1%;
+        border-radius: 1em;
     }
 }
