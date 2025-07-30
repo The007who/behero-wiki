@@ -1,0 +1,41 @@
+.welcome-text {
+    top: 25%; 
+    left: 50%; 
+    color: white;
+    width: 40%; 
+    font-size: larger;
+}
+.welcome-text a {
+    color: inherit;
+}
+.synopsis-container {
+    margin-bottom: 12px;
+}
+.synopsis-header {
+    top: 3.5%; 
+    left: 2%; 
+    color: white;
+}
+.synopsis-header h1 {
+    margin: 0;
+}
+.synopsis-text {
+    top: 12.5%; 
+    color: white; 
+    left: 2%; 
+    width: 80%;
+}
+
+@media screen and (max-device-width:1024px), (orientation:portrait) {
+
+    .welcome-text {
+        width: auto;
+    }
+    .synopsis-text {
+        width: auto;
+    }
+
+
+
+
+}

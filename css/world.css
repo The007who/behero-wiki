@@ -1,0 +1,38 @@
+.ages-section section {
+    display: flex;
+}
+.ages-section section img {
+    width: 50%; 
+    margin-left: 2%;
+}
+.guild {
+    margin-bottom: 12px;
+}
+.guild header {
+    top: 3.5%; 
+    left: 2%; 
+    color: white;
+}
+.guild header h1 {
+    margin: 0;
+}
+.guild section {
+    top: 15%; 
+    color: white; 
+    left: 2%;
+    width: 65%;
+}
+
+
+@media screen and (max-device-width:1024px), (orientation:portrait) {
+    .ages-section section {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .ages-section img {
+        width: 100%;
+    }
+
+
+
+}

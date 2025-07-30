@@ -133,7 +133,6 @@ footer section div {
     overflow: hidden;
     text-overflow: clip;
     height: 145px
-
 }
 
 footer section div li {
@@ -145,7 +144,6 @@ footer section div li a {
     color: white;
 }
 #thanks p {
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
