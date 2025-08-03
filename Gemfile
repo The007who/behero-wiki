@@ -22,6 +22,9 @@ group :jekyll_plugins do
 
   # Data Pages Generator
   gem "jekyll-datapage-generator"
+
+  # Site map
+  gem 'jekyll-sitemap'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

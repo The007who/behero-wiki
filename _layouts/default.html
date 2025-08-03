@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="behero, be hero, combatti, giochipreziosi, gioco, giochi, digitalpreziosi">
 
+    <meta property="og:image" content="{{ '/resources/layout/logo.png' | prepend: site.url }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ site.seo.description }}">
+    <meta name="twitter:image" content="{{ '/resources/layout/logo.png' | prepend: site.url }}">
+    {%- seo title=false -%}
+    <title>{{ page.title }} » BeHero Wiki</title>
+
     <link rel="stylesheet" href="{{ 'css/default.css' | relative_url }}">
     <link rel="shortcut icon" href="{{ 'resources/layout/icon.ico' | relative_url }}">
     <script src="{{ 'js/main.js' | relative_url }}"></script>
-    {%- seo title=false -%}
-
-    <title>{{ page.title }} » BeHero Wiki</title>
 </head>
 <body onload="startUp();">
     <script>
@@ -22,7 +26,7 @@
 
     <div class="top-buttons">
         <div title="Join the Discord!">
-            <a class="discordbtn" href="https://discord.gg/9nKGRKba36" target="_blank">
+            <a class="discordbtn" rel="noopener noreferrer" href="https://discord.gg/9nKGRKba36" target="_blank">
                 <img src="{{ 'resources/layout/discord.png' | relative_url }}" alt="discord-btn">
             </a>
         </div>

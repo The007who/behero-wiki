@@ -26,6 +26,7 @@
 
 @media screen and (max-device-width:1024px), (orientation:portrait) {
     .ages-section section {
+        display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }

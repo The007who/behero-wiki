@@ -143,6 +143,9 @@ footer section div li a {
     text-decoration: none;
     color: white;
 }
+#thanks {
+    margin-bottom: 1%;
+}
 #thanks p {
     display: flex;
     flex-wrap: wrap;
