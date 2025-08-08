@@ -23,14 +23,16 @@
     width: 65%;
 }
 
-
 @media screen and (max-device-width:1024px), (orientation:portrait) {
     .ages-section section {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
-    .ages-section img {
+    .ages-section section img {
+        width: 75%;
+    }
+    .guild section {
         width: 100%;
     }
 
