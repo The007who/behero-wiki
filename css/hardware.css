@@ -1,0 +1,15 @@
+.chip-images {
+    width: 50%;
+}
+.bold-text {
+    font-weight: bold;
+}
+.image-sequence {
+    display: flex;
+}
+
+@media screen and (max-device-width:1024px), (orientation:portrait) {
+    .chip-images {
+        height: fit-content;
+    }
+}

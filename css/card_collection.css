@@ -1,0 +1,39 @@
+.border {
+    border: solid 0.2rem #d2a64d;
+    border-radius: 1em;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.card {
+    width: 30%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+.card img {
+    width: 100%;
+}
+#card-name {
+    font-weight: bold;
+}
+.author-container {
+    padding: 0.2em;
+}
+
+@media screen and (max-device-width:1024px), (orientation:portrait) {
+    .border {
+        border: black solid 0.2rem;
+    }
+    .cards-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .card {
+        width: 75%;
+    }
+
+}

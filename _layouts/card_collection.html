@@ -2,7 +2,8 @@
 layout: default
 title: {{ page.name_eng }}
 ---
-<style></style>
+<link rel="stylesheet" href="{{ 'css/card_collection.css' | relative_url }}">
+
 <article>
     
     <button onclick="history.go(-1); return false;"><= Cards Page</button>
@@ -22,42 +23,45 @@ title: {{ page.name_eng }}
     <div class="eng-text"><p>"{{ page.desc_eng }}"</p></div>
 
 
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-end;">
+    <div class="cards-container">
         {%- for card in page.cards -%}
-            <div style="width: 30%; border: solid 0.2rem #d2a64d; border-radius: 1em; padding: 0.5em; margin-bottom: 1em;">
-                {%- if card.confirmed == true -%}
-                    <a href="{{ 'resources/cards/' | append: card.image_path | relative_url }}">
-                        <img
-                        src="
-                            {{ 'resources/cards/' 
-                                | append: card.image_path
-                                | relative_url }}
-                        "
-                        alt="card"
-                        style="width: 100%;">
-                    </a>
-                {%- else -%}
-                    <img src="{{ 'resources/cards/backcard.jpg' | relative_url }}" 
-                    alt="not-confirmed-card"
-                    style="width: 100%; filter: grayscale(100%);">
-                {%- endif -%}
-                <div style="font-weight: bold;">
-                    <p class="ita-text">{{ card.name_ita }}</p>
-                    <p class="eng-text">{{ card.name_eng }}</p>
-                </div>
-                <p>Attack: {{ card.attack[0] }}|{{ card.attack[1] }}</p>
-                <p>Defense: {{ card.defense[0] }}|{{ card.defense[1] }}</p>
-                <p>Speed: {{ card.speed[0] }}|{{ card.speed[1] }}</p>
-                <p>Barcode: {{ card.barcode }}</p>
-                
-                <div style="border: solid 0.2rem #d2a64d; border-radius: 1em; padding: 0.2em;">
-                    {%- if card.author -%}
-                        <p class="ita-text">Caricato da: {{ card.author }}</p>
-                        <p class="eng-text">Uploaded by: {{ card.author }}</p>
+            <div class="card border">
+                <div class="card-img">
+                    {%- if card.confirmed == true -%}
+                        <a href="{{ 'resources/cards/' | append: card.image_path | relative_url }}">
+                            <img
+                            src="
+                                {{ 'resources/cards/' 
+                                    | append: card.image_path
+                                    | relative_url }}
+                            "
+                            alt="card">
+                        </a>
                     {%- else -%}
-                        <p class="ita-text">Caricato da: The007who</p>
-                        <p class="eng-text">Uploaded by: The007who</p>
+                        <img src="{{ 'resources/cards/backcard.jpg' | relative_url }}" 
+                        alt="not-confirmed-card"
+                        style="filter: grayscale(100%);">
                     {%- endif -%}
+                </div>
+                <div class="card-text">
+                    <div id="card-name">
+                        <p class="ita-text">{{ card.name_ita }}</p>
+                        <p class="eng-text">{{ card.name_eng }}</p>
+                    </div>
+                    <p>Attack: {{ card.attack[0] }}|{{ card.attack[1] }}</p>
+                    <p>Defense: {{ card.defense[0] }}|{{ card.defense[1] }}</p>
+                    <p>Speed: {{ card.speed[0] }}|{{ card.speed[1] }}</p>
+                    <p>Barcode: {{ card.barcode }}</p>
+
+                    <div class="border author-container">
+                        {%- if card.author -%}
+                            <p class="ita-text">Caricato da: {{ card.author }}</p>
+                            <p class="eng-text">Uploaded by: {{ card.author }}</p>
+                        {%- else -%}
+                            <p class="ita-text">Caricato da: The007who</p>
+                            <p class="eng-text">Uploaded by: The007who</p>
+                        {%- endif -%}
+                    </div>
                 </div>
             </div>
         {%- endfor -%}

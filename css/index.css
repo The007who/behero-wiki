@@ -25,7 +25,9 @@
     left: 2%; 
     width: 80%;
 }
-
+#text-outline {
+    text-shadow: -1px -1px 0 #3b3b3b, 1px -1px 0 #3b3b3b, -1px 1px 0 #3b3b3b, 1px 1px 0 #3b3b3b;
+}
 @media screen and (max-device-width:1024px), (orientation:portrait) {
 
     .welcome-text {
@@ -35,6 +37,9 @@
     .synopsis-text {
         width: auto;
         font-size: x-large;
+    }
+    #text-outline {
+        text-shadow: none;
     }
 
 

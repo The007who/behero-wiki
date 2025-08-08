@@ -73,10 +73,6 @@ img[alt="discord-btn"] {
     position: absolute;
 }
 
-#text-outline {
-    text-shadow: -1px -1px 0 #3b3b3b, 1px -1px 0 #3b3b3b, -1px 1px 0 #3b3b3b, 1px 1px 0 #3b3b3b;
-}
-
 nav {
     width: 685px; 
     position: absolute; 
@@ -191,9 +187,16 @@ footer section div li a {
     .langSwitch button {
         border: solid black;
         border-radius: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 1%;
+        padding-top: 1%;
     }
     nav {
-        margin: 2.5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
         border: solid black;
         border-radius: 1em;
         flex-direction: column;
@@ -217,6 +220,9 @@ footer section div li a {
         flex-direction: column;
         align-items: center;
         font-size: 38px;
+        border: solid black;
+        border-radius: 1em;
+        padding: 1em;
     }
     .content article {
         width: 100%;
@@ -242,5 +248,6 @@ footer section div li a {
         background-color: black;
         padding: 1%;
         border-radius: 1em;
+        margin-bottom: 2em;
     }
 }
