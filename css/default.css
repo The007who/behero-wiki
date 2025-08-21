@@ -119,7 +119,7 @@ footer section img {
     
 }
 
-footer section div {
+footer section ol {
     position: relative;
     z-index: 1;
     color: #fff;
@@ -128,19 +128,21 @@ footer section div {
     margin-right: 10px;
     overflow: hidden;
     text-overflow: clip;
-    height: 145px
+    height: 145px;
+    padding-left: 20px;
 }
 
-footer section div li {
+footer section ol li {
     margin-top: 5px;
 }
 
-footer section div li a {
+footer section ol li a {
     text-decoration: none;
     color: white;
 }
 #thanks {
     margin-bottom: 1%;
+    margin-top: 1%;
 }
 #thanks p {
     display: flex;
