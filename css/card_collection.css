@@ -19,6 +19,17 @@
 #card-name {
     font-weight: bold;
 }
+.soundBtn {
+    cursor: pointer;
+    background-color: transparent;
+    margin-bottom: 1em;
+}
+.soundBtn img {
+    height: 40px;
+}
+.soundBtn :active {
+    transform: translateY(2px);
+}
 .author-container {
     padding: 0.2em;
 }

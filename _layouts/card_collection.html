@@ -3,6 +3,7 @@ layout: default
 title: {{ page.name_eng }}
 ---
 <link rel="stylesheet" href="{{ 'css/card_collection.css' | relative_url }}">
+<script src="{{ 'js/card-collection.js' | relative_url }}"></script>
 
 <article>
     <button onclick="history.go(-1); return false;"><= Cards Page</button>
@@ -51,6 +52,9 @@ title: {{ page.name_eng }}
                     <p>Defense: {{ card.defense[0] }}|{{ card.defense[1] }}</p>
                     <p>Speed: {{ card.speed[0] }}|{{ card.speed[1] }}</p>
                     <p>Barcode: {{ card.barcode }}</p>
+                    {% if card.sound_path %}
+                        <button class="soundBtn" onclick="playSound('{{ card.sound_path }}');"><img src="{{ 'resources/layout/speaker-filled-audio-tool.png' | relative_url}}"></button>
+                    {% endif %}
 
                     <div class="border author-container">
                         {%- if card.author -%}
