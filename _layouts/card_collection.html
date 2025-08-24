@@ -53,7 +53,7 @@ title: {{ page.name_eng }}
                     <p>Speed: {{ card.speed[0] }}|{{ card.speed[1] }}</p>
                     <p>Barcode: {{ card.barcode }}</p>
                     {% if card.sound_path %}
-                        <button class="soundBtn" onclick="playSound('{{ card.sound_path }}');"><img src="{{ 'resources/layout/speaker-filled-audio-tool.png' | relative_url}}"></button>
+                        <button class="soundBtn" onclick="playSound(BASE_URL + '{{ card.sound_path }}');"><img src="{{ 'resources/layout/speaker-filled-audio-tool.png' | relative_url}}"></button>
                     {% endif %}
 
                     <div class="border author-container">
