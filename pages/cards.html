@@ -48,7 +48,7 @@ permalink: /cards/
         {%- assign count = 0 -%}
         {%- for collection in site.data.cardpages -%}
             {%- for card in collection.cards -%}
-                {%- if card.confirmed == true -%}
+                {%- if card.image_path -%}
                     {%- assign count = count | plus: 1 -%}
                 {%- endif -%}
             {%- endfor -%}

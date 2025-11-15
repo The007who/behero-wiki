@@ -32,7 +32,7 @@ function makeSearch() {
 		html += `<a href=`+ BASE_URL + `/collection/` + element.item.collection_name + `>`;
 
 		// image
-		if (element.item.confirmed == true) {
+		if (element.item.image_path) {
 			html += `<img src=` + BASE_URL + `/resources/cards/`;
 			html += element.item.image_path + ` style="width: 100%;">`;
 		} else {

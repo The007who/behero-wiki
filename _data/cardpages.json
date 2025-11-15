@@ -12,9 +12,8 @@
                 "name_eng": "Shoes of the Apocalypse",
                 "name_ita": "Calzature dell'Apocalisse",
                 "image_path": "apocalypse/shoes-of-the-apocalypse.jpg",
-                "sound_path": "apocalypse/shoes-of-the-apocalypse.mp3",
+                "sound_path_ita_ita": "apocalypse/shoes-of-the-apocalypse.mp3",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 4],
                 "defense": [3, 3],
                 "speed": [1, 2]
@@ -24,11 +23,18 @@
                 "name_ita": "Corazza dell'Apocalisse",
                 "image_path": "apocalypse/jerkin-of-the-apocalypse.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 2],
                 "defense": [3, 4],
                 "speed": [1, 1],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Fiend of the Apocalypse",
+                "name_ita": "Servitore dell'Apocalisse",
+                "barcode": "Unknown",
+                "attack": ["?", "?"],
+                "defense": [3, "?"],
+                "speed": [1, 2]
             }
         ]
     },
@@ -46,7 +52,6 @@
                 "name_ita": "Veste della Speranza Sepolta",
                 "image_path": "buried-hope/vest-of-buried-hope.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 2],
                 "defense": [5, 7],
                 "speed": [2, 3]
@@ -56,11 +61,26 @@
                 "name_ita": "Bestia della Speranza Sepolta",
                 "image_path": "buried-hope/beast-of-buried-hope.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 2],
                 "defense": [5, 7],
                 "speed": [2, 3],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Mask of Buried Hope",
+                "name_ita": "Maschera della Speranza Sepolta",
+                "barcode": "Unknown",
+                "attack": [3, 4],
+                "defense": [0, 0],
+                "speed": [2, 3]
+            },
+            {
+                "name_eng": "Dun of Buried Hope",
+                "name_ita": "Schermo della Speranza Sepolta",
+                "barcode": "Unknown",
+                "attack": [1, 2],
+                "defense": [2, 3],
+                "speed": [2, 2]
             }
         ]
     },
@@ -78,11 +98,18 @@
                 "name_ita": "Mantello della Conchiglia di Cristallo",
                 "image_path": "crystal-conch/cloak-of-the-crystal-conch.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 0],
                 "defense": [5, 7],
                 "speed": [0, 0],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Staff of the Crystal Conch",
+                "name_ita": "Asta della Conchiglia di Cristallo",
+                "barcode": "Unknown",
+                "attack": [1, 2],
+                "defense": [3, 3],
+                "speed": [1, 2]
             }
         ]
     },
@@ -100,11 +127,18 @@
                 "name_ita": "Mantello del Mago Oscuro",
                 "image_path": "dark-magus/cloak-of-the-dark-magus.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [3, 4],
                 "speed": [0, 0],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Creature of the Dark Magus",
+                "name_ita": "Creatura del Mago Oscuro",
+                "barcode": "Unknown",
+                "attack": [2, 3],
+                "defense": [3, 3],
+                "speed": [0, 1]
             }
         ]
     },
@@ -121,12 +155,19 @@
                 "name_eng": "Protector of Darkness",
                 "name_ita": "Protezione dell'Oscurità",
                 "image_path": "darkness/protector-of-darkness.jpg",
-                "sound_path": "darkness/protector-of-darkness.mp3",
+                "sound_path_ita": "darkness/protector-of-darkness.mp3",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 1],
                 "defense": [3, 4],
                 "speed": [1, 2]
+            },
+            {
+                "name_eng": "Bacchetta dell'Oscurità",
+                "name_ita": "Orb of Darkness",
+                "barcode": "Unknown",
+                "attack": [3, 4],
+                "defense": [2, 2],
+                "speed": [0, 1]
             }
         ]
     },
@@ -144,7 +185,6 @@
                 "name_ita": "Dispositivo della Distruzione",
                 "image_path": "destruction/bludgeon-of-destruction.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [2, 2],
                 "speed": [1, 2]
@@ -154,7 +194,6 @@
                 "name_ita": "Difesa della Distruzione",
                 "image_path": "destruction/defense-of-destruction.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 0],
                 "defense": [3, 4],
                 "speed": [2, 3]
@@ -164,7 +203,6 @@
                 "name_ita": "Calzature della Distruzione",
                 "image_path": null,
                 "barcode": "Unknown",
-                "confirmed": false,
                 "attack": [0, 0],
                 "defense": [5, 5],
                 "speed": [1, 2],
@@ -186,7 +224,6 @@
                 "name_ita": "Anfibi del Cavalcadraghi",
                 "image_path": "dragonrider/sabatons-of-the-dragonrider.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 1],
                 "defense": [4, 5],
                 "speed": [0, 1]
@@ -196,7 +233,6 @@
                 "name_ita": "Scudo del Cavalcadraghi",
                 "image_path": "dragonrider/shield-of-the-dragonrider.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 0],
                 "defense": [4, 5],
                 "speed": [1, 1]
@@ -206,11 +242,29 @@
                 "name_ita": "Lama del Cavalcadraghi",
                 "image_path": "dragonrider/sword-of-the-dragonrider.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [4, 5],
                 "defense": [1, 1],
                 "speed": [0, 1],
                 "author": "ThatOneLordy"
+            }
+        ]
+    },
+    {
+        "name_eng": "Drifting Maiden",
+        "name_ita": "Fanciulla in Fuga",
+        "age": "Frozen",
+        "guild_eng": "Ninja",
+        "guild_ita": "Ninja",
+        "desc_eng": "Trova tutti i pezzi della Fanciulla in Fuga e sarai premiato con la possibilità di sferrare attacchi doppi.",
+        "desc_ita": "Find all pieces of the Drifting Maiden and be rewarded with extra (???)",
+        "cards": [
+            {
+                "name_eng": "Vest of the Drifting Maiden",
+                "name_ita": "Veste della Fanciulla in Fuga",
+                "barcode": "Unknown",
+                "attack": [2, 2],
+                "defense": [2, 3],
+                "speed": [1, 2]
             }
         ]
     },
@@ -228,7 +282,6 @@
                 "name_ita": "Spirito del Cerchio Elfico",
                 "image_path": "elven-circle/spirit-of-the-elven-circle.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [6, 8],
                 "defense": [2, 3],
                 "speed": [0, 1]
@@ -238,10 +291,17 @@
                 "name_ita": "Bardatura del Cerchio Elfico",
                 "image_path": "elven-circle/breastplate-of-the-elven-circle.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 1],
                 "defense": [4, 6],
                 "speed": [0, 0]
+            },
+            {
+                "name_eng": "Cudgel of the Elven Circle",
+                "name_ita": "Randello del Cerchio Elfico",
+                "barcode": "Unknown",
+                "attack": [2, 3],
+                "defense": [2, 2],
+                "speed": [1, 2]
             }
         ]
     },
@@ -259,7 +319,6 @@
                 "name_ita": "Corona della Trappola",
                 "image_path": null,
                 "barcode": "Unknown",
-                "confirmed": false,
                 "attack": [1, 2],
                 "defense": [4, 4],
                 "speed": [0, 1]
@@ -269,7 +328,6 @@
                 "name_ita": "Sandali della Trappola",
                 "image_path": "entrapment/moccasins-of-entrapment.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 2],
                 "defense": [2, 2],
                 "speed": [2, 3]
@@ -279,7 +337,6 @@
                 "name_ita": "Mantello della Trappola",
                 "image_path": "entrapment/cloak-of-entrapment.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 1],
                 "defense": [4, 5],
                 "speed": [1, 1],
@@ -301,7 +358,6 @@
                 "name_ita": "Compagno delle Braci Eterne",
                 "image_path": "eternal-embers/companion-of-eternal-embers.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [3, 4],
                 "defense": [0, 0],
                 "speed": [2, 3],
@@ -323,7 +379,6 @@
                 "name_ita": "Difesa della Foresta",
                 "image_path": "forest/defense-of-the-forest.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 1],
                 "defense": [4, 5],
                 "speed": [1, 1]
@@ -333,11 +388,18 @@
                 "name_ita": "Servitore della Foresta",
                 "image_path": "forest/fiend-of-the-forest.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [3, 3],
                 "speed": [1, 1],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Shades of the Forest",
+                "name_ita": "Visore della Foresta",
+                "barcode": "Unknown",
+                "attack": [3, 4],
+                "defense": [1, 1],
+                "speed": [1, 2]
             }
         ]
     },
@@ -355,7 +417,6 @@
                 "name_ita": "Corona della Fortuna",
                 "image_path": "fortune/crown-of-fortune.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [3, 4],
                 "speed": [1, 2]
@@ -365,10 +426,25 @@
                 "name_ita": "Mantello della Fortuna",
                 "image_path": "fortune/cloak-of-fortune.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [6, 8],
                 "speed": [0, 1]
+            },
+            {
+                "name_eng": "Staff of Fortune",
+                "name_ita": "Asta della Fortuna",
+                "barcode": "Unknown",
+                "attack": [4, 5],
+                "defense": [1, 2],
+                "speed": [0, 0]
+            },
+            {
+                "name_eng": "Creature of Fortune",
+                "name_ita": "Creatura della Fortuna",
+                "barcode": "Unknown",
+                "attack": [2, 3],
+                "defense": [2, 2],
+                "speed": [1, 2]
             }
         ]
     },
@@ -386,10 +462,17 @@
                 "name_ita": "Bardatura delle Buone Intenzioni",
                 "image_path": null,
                 "barcode": "Unknown",
-                "confirmed": false,
                 "attack": [3, 4],
                 "defense": [2, 3],
                 "speed": [0, 0]
+            },
+            {
+                "name_eng": "Spirit of Good Intentions",
+                "name_ita": "Spirito delle Buone Intenzioni",
+                "barcode": "Unknown",
+                "attack": [3, 4],
+                "defense": [2, 2],
+                "speed": [0, 1]
             }
         ]
     },
@@ -407,7 +490,6 @@
                 "name_ita": "Lancia della Luna Nascosta",
                 "image_path": null,
                 "barcode": "Unknown",
-                "confirmed": false,
                 "attack": [5, 6],
                 "defense": [0, 1],
                 "speed": [0, 0]
@@ -417,7 +499,6 @@
                 "name_ita": "Spirito della Luna Nascosta",
                 "image_path": "hidden-crescent/spirit-of-the-hidden-crescent.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [3, 4],
                 "defense": [1, 1],
                 "speed": [1, 2],
@@ -439,11 +520,18 @@
                 "name_ita": "Alleato dei Giardini Nascosti",
                 "image_path": "hidden-gardens/ally-of-the-hidden-gardens.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 2],
                 "defense": [1, 1],
                 "speed": [3, 4],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Mace of the Hidden Gardens",
+                "name_ita": "Mazza dei Giardini Nascosti",
+                "barcode": "Unknown",
+                "attack": [3, 4],
+                "defense": [0, 1],
+                "speed": [2, 2]
             }
         ]
     },
@@ -460,9 +548,8 @@
                 "name_eng": "Helm of Horns",
                 "name_ita": "Elmo di Corno",
                 "image_path": "horns/helm-of-horns.jpg",
-                "sound_path": "horns/helm-of-horns.mp3",
+                "sound_path_ita": "horns/helm-of-horns.mp3",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [0, 0],
                 "speed": [3, 4]
@@ -472,11 +559,18 @@
                 "name_ita": "Compagno di Corno",
                 "image_path": "horns/companion-of-horns.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [4, 5],
                 "defense": [1, 1],
                 "speed": [0, 1],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Guard of Horns",
+                "name_ita": "Guardia di Corno",
+                "barcode": "Unknown",
+                "attack": [2, 3],
+                "defense": [2, 3],
+                "speed": [1, 1]
             }
         ]
     },
@@ -494,7 +588,6 @@
                 "name_ita": "Copertura della Mano di Ferro",
                 "image_path": "iron-hand/targe-of-the-iron-hand.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 1],
                 "defense": [3, 5],
                 "speed": [2, 3]
@@ -504,11 +597,26 @@
                 "name_ita": "Scarpe della Mano di Ferro",
                 "image_path": "iron-hand/soles-of-the-iron-hand.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 1],
                 "defense": [1, 1],
                 "speed": [4, 5],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Tunic of the Iron Hand",
+                "name_ita": "Tunica della Mano di Ferro",
+                "barcode": "Unknown",
+                "attack": [1, 1],
+                "defense": [3, 3],
+                "speed": [2, 3]
+            },
+            {
+                "name_eng": "Cap of the Iron Hand",
+                "name_ita": "Berretto della Mano di Ferro",
+                "barcode": "Unknown",
+                "attack": [0, 1],
+                "defense": [3, 3],
+                "speed": [2, 3]
             }
         ]
     },
@@ -526,7 +634,6 @@
                 "name_ita": "Sandali della Natura",
                 "image_path": "nature/moccasins-of-nature.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 4],
                 "defense": [4, 4],
                 "speed": [0, 1]
@@ -536,9 +643,24 @@
                 "name_ita": "Protezione della Natura",
                 "image_path": "nature/protector-of-nature.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 2],
                 "defense": [4, 5],
+                "speed": [0, 0]
+            },
+            {
+                "name_eng": "Crown of Nature",
+                "name_ita": "Corona della Natura",
+                "barcode": "Unknown",
+                "attack": [4, 5],
+                "defense": [1, 1],
+                "speed": [0, 1]
+            },
+            {
+                "name_eng": "Creature of Nature",
+                "name_ita": "Creatura della Natura",
+                "barcode": "Unknown",
+                "attack": [3, 4],
+                "defense": [2, 3],
                 "speed": [0, 0]
             }
         ]
@@ -557,7 +679,6 @@
                 "name_ita": "Mazza di Oceana",
                 "image_path": "oceana/mace-of-oceana.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 1],
                 "defense": [2, 2],
                 "speed": [3, 4]
@@ -566,9 +687,8 @@
                 "name_eng": "Tunic of Oceana",
                 "name_ita": "Tunica di Oceana",
                 "image_path": "oceana/tunic-of-oceana.jpg",
-                "sound_path": "oceana/tunic-of-oceana.mp3",
+                "sound_path_ita": "oceana/tunic-of-oceana.mp3",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 1],
                 "defense": [3, 4],
                 "speed": [1, 2]
@@ -587,12 +707,18 @@
             {
                 "name_eng": "Helm of Odysseus",
                 "name_ita": "Elmo di Odisseo",
-                "image_path": null,
                 "barcode": "Unknown",
-                "confirmed": false,
                 "attack": [1, 1],
                 "defense": [2, 3],
                 "speed": [2, 3]
+            },
+            {
+                "name_eng": "Armor of Odysseus",
+                "name_ita": "Armatura di Odisseo",
+                "barcode": "Unknown",
+                "attack": [1, 1],
+                "defense": [4, 5],
+                "speed": [0, 1]
             }
         ]
     },
@@ -610,7 +736,6 @@
                 "name_ita": "Compagno del Pericolo",
                 "image_path": "peril/companion-of-peril.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [3, 4],
                 "defense": [1, 1],
                 "speed": [1, 2]
@@ -620,10 +745,17 @@
                 "name_ita": "Stivali del Pericolo",
                 "image_path": "peril/boots-of-peril.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [4, 6],
                 "defense": [1, 1],
                 "speed": [1, 2]
+            },
+            {
+                "name_eng": "Armor of Peril",
+                "name_ita": "Armatura del Pericolo",
+                "barcode": "Unknown",
+                "attack": [3, 4],
+                "defense": [2, 2],
+                "speed": [0, 1]
             }
         ]
     },
@@ -641,11 +773,18 @@
                 "name_ita": "Bestia della Rabbia Ribelle",
                 "image_path": "rebel-s-rage/beast-of-the-rebel-s-rage.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [1, 1],
                 "speed": [2, 3],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Vest of the Rebel's Rage",
+                "name_ita": "Veste della Rabbia Ribelle",
+                "barcode": "Unknown",
+                "attack": [2, 3],
+                "defense": [1, 2],
+                "speed": [2, 2]
             }
         ]
     },
@@ -663,7 +802,6 @@
                 "name_ita": "Corazza dell'Alta Marea",
                 "image_path": "rising-tide/jerkin-of-the-rising-tide.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 1],
                 "defense": [4, 5],
                 "speed": [0, 1],
@@ -674,7 +812,6 @@
                 "name_ita": "Tubo dell'Alta Marea",
                 "image_path": "rising-tide/amalgam-of-the-rising-tide.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 1],
                 "defense": [3, 3],
                 "speed": [2, 3],
@@ -696,7 +833,6 @@
                 "name_ita": "Visore del Sacrificio",
                 "image_path": "sacrifice/shades-of-the-sacrifice.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 2],
                 "defense": [3, 4],
                 "speed": [2, 3]
@@ -706,11 +842,18 @@
                 "name_ita": "Ordigno del Sacrificio",
                 "image_path": "sacrifice/detonator-of-the-sacrifice.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [3, 4],
                 "defense": [1, 2],
                 "speed": [1, 1],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Fiend of the Sacrifice",
+                "name_ita": "Servitore del Sacrificio",
+                "barcode": "Unknown",
+                "attack": [1, 2],
+                "defense": [2, 2],
+                "speed": [2, 3]
             }
         ]
     },
@@ -727,12 +870,19 @@
                 "name_eng": "Beast of Sand",
                 "name_ita": "Bestia della Sabbia",
                 "image_path": "sand/beast-of-sand.jpg",
-                "sound_path": "sand/beast-of-sand.mp3",
+                "sound_path_ita": "sand/beast-of-sand.mp3",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [0, 0],
                 "speed": [3, 4]
+            },
+            {
+                "name_eng": "Claw of Sand",
+                "name_ita": "Artiglio della Sabbia",
+                "barcode": "Unknown",
+                "attack": [4, 5],
+                "defense": [0, 0],
+                "speed": [1, 2]
             }
         ]
     },
@@ -750,9 +900,16 @@
                 "name_ita": "Guardia delle Ombre",
                 "image_path": "shadows/guard-of-shadows.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 0],
                 "defense": [4, 5],
+                "speed": [1, 2]
+            },
+            {
+                "name_eng": "Boots of Shadows",
+                "name_ita": "Stivali delle Ombre",
+                "barcode": "Unknown",
+                "attack": [1, 1],
+                "defense": [3, 4],
                 "speed": [1, 2]
             }
         ]
@@ -771,10 +928,52 @@
                 "name_ita": "Alleato della Fanciulla Urlante",
                 "image_path": "shrieking-maiden/ally-of-the-shrieking-maiden.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 2],
                 "defense": [2, 2],
                 "speed": [2, 3]
+            },
+            {
+                "name_eng": "Tunic of the Shrieking Maiden",
+                "name_ita": "Tunica della Fanciulla Urlante",
+                "barcode": "Unknown",
+                "attack": [1, 2],
+                "defense": [2, 3],
+                "speed": [2, 2]
+            }
+        ]
+    },
+    {
+        "name_eng": "Silver",
+        "name_ita": "Argento",
+        "age": "New",
+        "guild_eng": "Warrior",
+        "guild_ita": "Guerriero",
+        "desc_eng": "The more mystical Silver you use, the more deadly its elemental attack.",
+        "desc_ita": "Più Argento mistico usi, maggiore sarà il suo danno elementale.",
+        "cards": [
+            {
+                "name_eng": "Boots of Silver",
+                "name_ita": "Stivali d'Argento",
+                "barcode": "Unknown",
+                "attack": [2, 3],
+                "defense": [0, 0],
+                "speed": [3, 4]
+            },
+            {
+                "name_eng": "Helm of Silver",
+                "name_ita": "Elmo d'Argento",
+                "barcode": "Unknown",
+                "attack": [2, 3],
+                "defense": [1, 1],
+                "speed": [2, 3]
+            },
+            {
+                "name_eng": "Armor of Silver",
+                "name_ita": "Armatura d'Argento",
+                "barcode": "Unknown",
+                "attack": [2, 2],
+                "defense": [3, 4],
+                "speed": [0, 1]
             }
         ]
     },
@@ -792,7 +991,6 @@
                 "name_ita": "Pugnale della Rivoluzione d'Argento",
                 "image_path": "silver-revolution/dagger-of-the-silver-revolution.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [7, 9],
                 "defense": [0, 1],
                 "speed": [1, 2]
@@ -802,7 +1000,6 @@
                 "name_ita": "Scarponi della Rivoluzione d'Argento",
                 "image_path": "silver-revolution/treads-of-the-silver-revolution.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 2],
                 "defense": [0, 0],
                 "speed": [4, 5]
@@ -812,10 +1009,17 @@
                 "name_ita": "Maschera della Rivoluzione d'Argento",
                 "image_path": "silver-revolution/mask-of-the-silver-revolution.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 2],
                 "defense": [2, 2],
                 "speed": [2, 3]
+            },
+            {
+                "name_eng": "Vest of the Silver Revolution",
+                "name_ita": "Veste della Rivoluzione d'Argento",
+                "barcode": "Unknown",
+                "attack": [1, 1],
+                "defense": [1, 3],
+                "speed": [3, 3]
             }
         ]
     },
@@ -832,9 +1036,8 @@
                 "name_eng": "Cudgel of Steel",
                 "name_ita": "Randello d'Acciaio",
                 "image_path": "steel/cudgel-of-steel.jpg",
-                "sound_path": "steel/cudgel-of-steel.mp3",
+                "sound_path_ita": "steel/cudgel-of-steel.mp3",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [8, 10],
                 "defense": [0, 2],
                 "speed": [0, 0]
@@ -844,7 +1047,6 @@
                 "name_ita": "Anfibi d'Acciaio",
                 "image_path": "steel/sabatons-of-steel.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [1, 1],
                 "speed": [2, 3]
@@ -854,11 +1056,18 @@
                 "name_ita": "Copricapo d'Acciaio",
                 "image_path": "steel/sallet-of-steel.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [3, 3],
                 "speed": [0, 1],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Breastplate of Steel",
+                "name_ita": "Bardatura d'Acciaio",
+                "barcode": "Unknown",
+                "attack": [1, 2],
+                "defense": [3, 4],
+                "speed": [1, 1]
             }
         ]
     },
@@ -876,7 +1085,6 @@
                 "name_ita": "Copertura del Cavalcatempeste",
                 "image_path": "stormrider/targe-of-the-stormrider.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 0],
                 "defense": [2, 3],
                 "speed": [3, 4]
@@ -886,7 +1094,6 @@
                 "name_ita": "Scarpe del Cavalcatempeste",
                 "image_path": "stormrider/soles-of-the-stormrider.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 0],
                 "defense": [4, 4],
                 "speed": [2, 3],
@@ -908,11 +1115,26 @@
                 "name_ita": "Calzature del Tuono",
                 "image_path": "thunder/shoes-of-thunder.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [0, 1],
                 "defense": [2, 2],
                 "speed": [3, 4],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Shades of Thunder",
+                "name_ita": "Visore del Tuono",
+                "barcode": "Unknown",
+                "attack": [0, 1],
+                "defense": [4, 4],
+                "speed": [1, 2]
+            },
+            {
+                "name_eng": "Jerkin of Thunder",
+                "name_ita": "Corazza del Tuono",
+                "barcode": "Unknown",
+                "attack": [0, 0],
+                "defense": [3, 5],
+                "speed": [1, 2]
             }
         ]
     },
@@ -930,7 +1152,6 @@
                 "name_ita": "Copricapo della Tartaruga",
                 "image_path": "tortoise/sallet-of-the-tortoise.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [5, 6],
                 "defense": [0, 0],
                 "speed": [0, 1]
@@ -940,10 +1161,17 @@
                 "name_ita": "Scudo della Tartaruga",
                 "image_path": "tortoise/shield-of-the-tortoise.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [3, 4],
                 "speed": [0, 0]
+            },
+            {
+                "name_eng": "Spirit of the Tortoise",
+                "name_ita": "Spirito della Tartaruga",
+                "barcode": "Unknown",
+                "attack": [0, 0],
+                "defense": [4, 5],
+                "speed": [1, 2]
             }
         ]
     },
@@ -961,10 +1189,25 @@
                 "name_ita": "Scarponi dell'Imbroglione",
                 "image_path": "trickster/treads-of-the-trickster.jpg",
                 "barcode": "Unknown",
-                "confirmed": true,
                 "attack": [1, 1],
                 "defense": [3, 3],
                 "speed": [2, 3]
+            },
+            {
+                "name_eng": "Claw of the Trickster",
+                "name_ita": "Artiglio dell'Imbroglione",
+                "barcode": "Unknown",
+                "attack": [3, 4],
+                "defense": [0, 0],
+                "speed": [2, 3]
+            },
+            {
+                "name_eng": "Dun of the Trickster",
+                "name_ita": "Schermo dell'Imbroglione",
+                "barcode": "Unknown",
+                "attack": [1, 1],
+                "defense": [1, 2],
+                "speed": [3, 4]
             }
         ]
     },
@@ -982,7 +1225,6 @@
                 "name_ita": "Berretto del Vagabondo",
                 "barcode": "Unknown",
                 "image_path": "wanderer/cap-of-the-wanderer.jpg",
-                "confirmed": true,
                 "attack": [3, 4],
                 "defense": [0, 0],
                 "speed": [2, 3],
@@ -993,11 +1235,18 @@
                 "name_ita": "Alleato del Vagabondo",
                 "barcode": "Unknown",
                 "image_path": "wanderer/ally-of-the-wanderer.jpg",
-                "confirmed": true,
                 "attack": [2, 3],
                 "defense": [1, 2],
                 "speed": [2, 2],
                 "author": "ThatOneLordy"
+            },
+            {
+                "name_eng": "Targe of the Wanderer",
+                "name_ita": "Copertura del Vagabondo",
+                "barcode": "Unknown",
+                "attack": [0, 1],
+                "defense": [3, 4],
+                "speed": [2, 2]
             }
         ]
     }

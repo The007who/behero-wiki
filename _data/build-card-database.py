@@ -10,10 +10,11 @@ for collection in data:
         new_card = {
             'name_eng': card['name_eng'],
             'name_ita': card['name_ita'],
-            'image_path': card['image_path'],
-            'confirmed': card['confirmed'],
             'collection_name': slugify(collection['name_eng'])
         }
+        if 'image_path' in card:
+            new_card['image_path'] = card['image_path']
+
         if 'author' in card:
             new_card['author'] = card['author']
 

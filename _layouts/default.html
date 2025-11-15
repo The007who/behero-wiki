@@ -123,9 +123,9 @@
         <p>
             {%- for contributor in site.data.contributors -%}
                 {%- assign color = forloop.index0 | times: 350 | divided_by: forloop.length -%}
-                <span style="color: hsl({{ color }}, 100%, 50%)">{{ contributor }}</span>
+                <span style="color: hsl({{ color }}, 50%, 50%)">{{ contributor }}</span>
             {%- endfor -%}
-         </p>
+        </p>
     </div>
     
 </body>

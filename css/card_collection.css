@@ -22,10 +22,10 @@
 .soundBtn {
     cursor: pointer;
     background-color: transparent;
-    margin-bottom: 1em;
+    border: none;
 }
 .soundBtn img {
-    height: 40px;
+    height: 35px;
 }
 .soundBtn :active {
     transform: translateY(2px);
