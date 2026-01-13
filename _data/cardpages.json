@@ -521,6 +521,7 @@
             {
                 "name_eng": "Shield of Good Intentions",
                 "name_ita": "Scudo delle Buone Intenzioni",
+                "slot": "shield",
                 "barcode": "Unknown",
                 "attack": ["?", "?"],
                 "defense": ["?", "?"],
@@ -1038,6 +1039,7 @@
             {
                 "name_eng": "Mace of the Shrieking Maiden",
                 "name_ita": "??? della Fanciulla Urlante",
+                "slot": "weapon",
                 "barcode": "Unknown",
                 "attack": ["?", "?"],
                 "defense": ["?", "?"],
