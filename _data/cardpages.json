@@ -1337,6 +1337,7 @@
             {
                 "name_eng": "Dun of the Trickster",
                 "name_ita": "Schermo dell'Imbroglione",
+                "image_path": "trickster/dun-of-the-trickster.jpg",
                 "slot": "shield",
                 "barcode": "Unknown",
                 "attack": [1, 1],

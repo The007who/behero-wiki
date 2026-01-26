@@ -134,8 +134,8 @@ permalink: /cards/
                         {%- if collection_list.age == age -%}
                             <li style="padding-right: 2.5em;">
                                 <a style="font-weight: bold; color: white;" href="{{ collection_list.name_eng | datapage_url: 'collection' | relative_url }}">
-                                    <p class="ita-text">{{ collection_list.name_ita }}</p>
-                                    <p class="eng-text">{{ collection_list.name_eng }}</p>
+                                    <p class="ita-text">{{ collection_list.name_ita }}( {{ collection_list.cards | size }} )</p>
+                                    <p class="eng-text">{{ collection_list.name_eng }}( {{ collection_list.cards | size }} )</p>
                                 </a>
                             </li>
                         {%- endif -%}
