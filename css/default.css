@@ -21,6 +21,11 @@ img[alt="header-alt"] {
 img[alt="discord-btn"] {
     height: 30px;
 }
+#img-lazy {
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
+    background-color: #00000000;
+}
 .ghbutton {
     position: absolute;
     top: 60px;
