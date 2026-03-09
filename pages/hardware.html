@@ -10,10 +10,10 @@ permalink: /hardware/
 
     <p>Images of the console:</p>
     <div class="image-sequence">
-        <img src="{{ 'resources/hardware/IMG20240218181020.jpg'| relative_url }}" width="25%">
-        <img src="{{ 'resources/hardware/IMG20240218181048.jpg'| relative_url }}" width="25%">
-        <img src="{{ 'resources/hardware/IMG20240218181102.jpg'| relative_url }}" width="25%">
-        <img src="{{ 'resources/hardware/IMG20240218181111.jpg'| relative_url }}" width="25%">
+        <img id="img-lazy" width="2250" height="4000" src="{{ 'resources/hardware/IMG20240218181020.jpg'| relative_url }}" width="25%">
+        <img id="img-lazy" width="2250" height="4000" src="{{ 'resources/hardware/IMG20240218181048.jpg'| relative_url }}" width="25%">
+        <img id="img-lazy" width="2250" height="4000" src="{{ 'resources/hardware/IMG20240218181102.jpg'| relative_url }}" width="25%">
+        <img id="img-lazy" width="2250" height="4000" src="{{ 'resources/hardware/IMG20240218181111.jpg'| relative_url }}" width="25%">
     </div>
     
     <hr>
@@ -27,13 +27,13 @@ permalink: /hardware/
             <ul>
                 <h3>AVS641604L-6TE</h3>
                 <li style="display: flex;">
-                    <img class="chip-images" src="{{ 'resources/hardware/avs.jpg' | relative_url }}" alt="avs">
+                    <img id="img-lazy" width="1650" height="969" class="chip-images" src="{{ 'resources/hardware/avs.jpg' | relative_url }}" alt="avs">
                     <span style="padding: 1em;">This is quite possibly RAM.</span>
                 </li>
                 <hr>
                 <h3>GPR27P512A-006A 3D74270081 a102812</h3>
                 <li style="display: flex;">
-                    <img class="chip-images" src="{{ 'resources/hardware/gpr.jpg' | relative_url }}" alt="gpr">
+                    <img id="img-lazy" width="1270" height="726" class="chip-images" src="{{ 'resources/hardware/gpr.jpg' | relative_url }}" alt="gpr">
                     <span style="padding: 1em;">A 512M-BIT NAND interface with OTP. This is very likely where the game is stored.
                         The data sheet can be found <a href="https://www.alldatasheet.com/datasheet-pdf/view/1148038/GENERALPLUS/GPR27P512A.html">here</a>.
                     </span>
@@ -45,13 +45,13 @@ permalink: /hardware/
             <ul>
                 <h3>324ST e4 N009013</h3>
                 <li style="display: flex;">
-                    <img class="chip-images" src="{{ 'resources/hardware/324.jpg' | relative_url}}" alt="324">
+                    <img id="img-lazy" width="1980" height="1722" class="chip-images" src="{{ 'resources/hardware/324.jpg' | relative_url}}" alt="324">
                     <span style="padding: 1em;">This chip is a LM324, a quad opamp possibly for audio.</span>
                 </li>
                 <hr>
                 <h3>FT24C08A</h3>
                 <li style="display: flex;">
-                    <img class="chip-images" src="{{ 'resources/hardware/ft24.jpg' | relative_url }}" alt="ft24">
+                    <img id="img-lazy" width="1000" height="1551" class="chip-images" src="{{ 'resources/hardware/ft24.jpg' | relative_url }}" alt="ft24">
                     <span style="padding: 1em;">It's a 1KB EEPROM made by FMD.<br>1KB for the whole game is very unlikely, maybe data only for booting or saves.
                         The data sheet can be found <a href="https://www.lcsc.com/datasheet/lcsc_datasheet_1809172038_FMD-Fremont-Micro-Devices-FT24C08A-ELR-T_C232869.pdf">here</a>.
                     </span>

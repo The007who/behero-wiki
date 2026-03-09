@@ -27,11 +27,12 @@ function makeSearch() {
 		const fuse = new Fuse(database, fuseOptions);
 		response = fuse.search(searchPattern);
 	} else {
-		response = database;
+		response = structuredClone(database);
 		for (i = 0; i < response.length; i++) {
 			response[i] = { 'item': response[i] };
 		}
 	}
+    console.log(response[0]);
 
 	// options strip
 	let options = getOptions();
@@ -115,7 +116,7 @@ function checkToAttribute(checkName) {
 		case 'warrior-check': return 'Warrior'
 		case 'magician-check': return 'Magician'
 		case 'adventurer-check': return 'Adventurer'
-		case 'knight-check': return 'Knigt'
+		case 'knight-check': return 'Knight'
 		case 'alchemist-check': return 'Alchemist'
 		case 'ninja-check': return 'Ninja'
 		case 'head-check': return 'head'
@@ -149,7 +150,7 @@ function createHtml(response) {
 			html += `<img src=` + BASE_URL + `/resources/cards/`;
 			html += element.item.image_path + ` style="width: 100%;">`;
 		} else {
-			html += `<img src=` + BASE_URL + `/resources/cards/backcard.jpg style="width: 100%; filter: grayscale(100%);">`
+			html += `<img src=` + BASE_URL + `/resources/cards/backcard.jpg style="width: 100%; filter: grayscale(100%);" loading="lazy">`
 		}
 		html += `</a>`;
 		
