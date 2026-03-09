@@ -22,7 +22,6 @@ img[alt="discord-btn"] {
     height: 30px;
 }
 #img-lazy {
-    height: auto;
     aspect-ratio: attr(width) / attr(height);
     background-color: #00000000;
 }

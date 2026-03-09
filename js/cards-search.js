@@ -38,7 +38,7 @@ function makeSearch() {
 
 	//options = [['Lost'], ['Warrior']];
 	for (i = response.length - 1; i >= 0; i--) {
-		if (!options[0].includes(response[i].item.age) 
+		if (!options[0].includes(response[i].item.age)
 			|| !options[1].includes(response[i].item.guild) 
 			|| !options[2].includes(response[i].item.slot)) {
 			response.splice(i, 1);
@@ -82,31 +82,25 @@ function getOptions() {
 		]
 	]
 
-	ids[0].forEach(element => {
-		if (document.getElementById(element).checked) {
-			output[0].push(checkToAttribute(element));
+	for (let x=0; x<=2; x++) {
+		ids[x].forEach(element => {
+			if (document.getElementById(element).checked) {
+				output[x].push(checkToAttribute(element));
+			}
+		});
+	}
+	
+	// if empty include all
+	for (let x=0; x<=2; x++) {
+		if (output[x].length == 0) {
+			let y = ids[x];
+			for (z=0; z<=5; z++) {
+				y[z] = checkToAttribute(y[z]);
+			}
+			output[x] = y;
 		}
-	});
-
-	ids[1].forEach(element => {
-		if (document.getElementById(element).checked) {
-			output[1].push(checkToAttribute(element));
-		}
-	});
-
-	ids[2].forEach(element => {
-		if (document.getElementById(element).checked) {
-			output[2].push(checkToAttribute(element));
-		}
-	});
-
-	/*
-	console.log(output);
-	if (output[0].length == 0) output[0] = ids[0];
-	if (output[1].length == 0) output[1] = ids[1];
-	if (output[2].length == 0) output[2] = ids[2];
-	*/
-
+	}
+	
 	return output;
 }
 
@@ -135,7 +129,11 @@ function checkToAttribute(checkName) {
 
 function createHtml(response) {
 	if (response.length == 0) {
-		document.getElementById('search-results').innerHTML = 'Nothing found.';
+		if (sessionStorage.getItem('lang') == 'ita') {
+			document.getElementById('search-results').innerHTML = 'Nessun risultato.';
+		} else {
+			document.getElementById('search-results').innerHTML = 'Nothing found.';
+		}
 		return;
 	}
 
@@ -159,20 +157,7 @@ function createHtml(response) {
 		html += `<div style="font-weight: bold;">`;
 		html += `<p class="ita-text">`+ element.item.name_ita + `</p>`;
 		html += `<p class="eng-text">`+ element.item.name_eng + `</p>`;
-		html += `</div>`;
-
-		// credits
-		html += `<div style="border: solid 0.2rem #d2a64d; border-radius: 1em; padding: 0.2em;">`;
-		if (element.item.author) {
-			html += `<p class="ita-text">Caricato da: ` + element.item.author + `</p>`;
-			html += `<p class="eng-text">Uploaded by: ` + element.item.author + `</p>`;
-		} else {
-			html += `<p class="ita-text">Caricato da: The007who</p>`;
-			html += `<p class="eng-text">Uploaded by: The007who</p>`;
-		}
-		html += `</div>`;
-
-		html += `</div>`;
+		html += `</div></div>`;
 	});
 
 	document.getElementById('search-results').innerHTML = html;

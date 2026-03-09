@@ -9,6 +9,10 @@
     height: 22px;
     outline: none;
 }
+.border {
+    border: solid 0.2rem #d2a64d;
+    border-radius: 1em;
+}
 .search-btn:active {
     transform: translateY(2px); 
 }

@@ -60,57 +60,62 @@ permalink: /cards/
     </p>
 
     <h1>Card List</h1>
-    <div style="display: flex; margin: 1em; justify-content: center;">
-        <div class="search-bar">
-            <input type="text" id="search-query" name="q" onkeydown="if(event.key === 'Enter') makeSearch();" placeholder="Card..." autocomplete="off">
+    <div class="border">
+        <div style="display: flex; margin: 1em; justify-content: center;">
+            <div class="search-bar">
+                <input type="text" id="search-query" name="q" onkeydown="if(event.key === 'Enter') makeSearch();" placeholder="Card..." autocomplete="off">
+            </div>
+            <img onclick="makeSearch();" class="search-btn" src="{{ 'resources/layout/pulsante-vai.jpg' | relative_url }}" alt="submit">
+            <button onclick="clearSearch();">Clear</button>
         </div>
-        <img onclick="makeSearch();" class="search-btn" src="{{ 'resources/layout/pulsante-vai.jpg' | relative_url }}" alt="submit">
-    </div>
+        
+        <label>Results</label>
+        <input id="search-limit" type="number" value="9">
 
-    <button onclick="clearSearch();">Clear</button>
-    <input id="search-limit" type="number" value="9">
-
-    <div>
-        Lost
-        <input id="lost-check" type="checkbox">
-        Golden
-        <input id="golden-check" type="checkbox">
-        Enchanted
-        <input id="enchanted-check" type="checkbox">
-        Frozen
-        <input id="frozen-check" type="checkbox">
-        New
-        <input id="new-check" type="checkbox">
-        Nightmare
-        <input id="nightmare-check" type="checkbox">
-    </div>
-    <div>
-        Warrior
-        <input id="warrior-check" type="checkbox">
-        Magician
-        <input id="magician-check" type="checkbox">
-        Adventurer
-        <input id="adventurer-check" type="checkbox">
-        Knight
-        <input id="knight-check" type="checkbox">
-        Alchemist
-        <input id="alchemist-check" type="checkbox">
-        Ninja
-        <input id="ninja-check" type="checkbox">
-    </div>
-    <div>
-        Head
-        <input id="head-check" type="checkbox">
-        Body
-        <input id="body-check" type="checkbox">
-        Feet
-        <input id="feet-check" type="checkbox">
-        Weapon
-        <input id="weapon-check" type="checkbox">
-        Shield
-        <input id="shield-check" type="checkbox">
-        Companion
-        <input id="companion-check" type="checkbox">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div>
+                Lost
+                <input id="lost-check" type="checkbox">
+                Golden
+                <input id="golden-check" type="checkbox">
+                Enchanted
+                <input id="enchanted-check" type="checkbox">
+                Frozen
+                <input id="frozen-check" type="checkbox">
+                New
+                <input id="new-check" type="checkbox">
+                Nightmare
+                <input id="nightmare-check" type="checkbox">
+            </div>
+            <div>
+                Warrior
+                <input id="warrior-check" type="checkbox">
+                Magician
+                <input id="magician-check" type="checkbox">
+                Adventurer
+                <input id="adventurer-check" type="checkbox">
+                Knight
+                <input id="knight-check" type="checkbox">
+                Alchemist
+                <input id="alchemist-check" type="checkbox">
+                Ninja
+                <input id="ninja-check" type="checkbox">
+            </div>
+            <div>
+                Head
+                <input id="head-check" type="checkbox">
+                Body
+                <input id="body-check" type="checkbox">
+                Feet
+                <input id="feet-check" type="checkbox">
+                Weapon
+                <input id="weapon-check" type="checkbox">
+                Shield
+                <input id="shield-check" type="checkbox">
+                Companion
+                <input id="companion-check" type="checkbox">
+            </div>
+        </div>
     </div>
 
     <section id="search-results" style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-end;">
