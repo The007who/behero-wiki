@@ -32,7 +32,6 @@ function makeSearch() {
 			response[i] = { 'item': response[i] };
 		}
 	}
-    console.log(response[0]);
 
 	// options strip
 	let options = getOptions();
@@ -109,7 +108,7 @@ function checkToAttribute(checkName) {
 	switch(checkName) {
 		case 'lost-check': return 'Lost'
 		case 'golden-check': return 'Golden'
-		case 'enchanted-check': return 'Enchated'
+		case 'enchanted-check': return 'Enchanted'
 		case 'frozen-check': return 'Frozen'
 		case 'new-check': return 'New'
 		case 'nightmare-check': return 'Nightmare'
@@ -138,34 +137,55 @@ function createHtml(response) {
 		return;
 	}
 
-	let html = '';
+	const target = document.getElementById('search-results');
+	target.replaceChildren();
+
 	response.forEach(element => {
-		html += `<div style="width: 30%; border: solid 0.2rem #d2a64d; border-radius: 1em; padding: 0.5em; margin-bottom: 1em;">`;
+		const main = document.createElement('div');
+		main.style = 'width: 30%; border: solid 0.2rem #d2a64d; border-radius: 1em; padding: 0.5em; margin-bottom: 1em;'
 		
 		// link
-		html += `<a href=`+ BASE_URL + `/collection/` + element.item.collection_name + `>`;
+		const link = document.createElement('a');
+		link.href = BASE_URL + '/collection/' + element.item.collection_name;
 
 		// image
+		const image = document.createElement('img');
 		if (element.item.image_path) {
-			html += `<img src=` + BASE_URL + `/resources/cards/`;
-			html += element.item.image_path + ` style="width: 100%;">`;
+			image.src = BASE_URL + '/resources/cards/' + element.item.image_path;
+			image.style = 'width: 100%;';
 		} else {
-			html += `<img src=` + BASE_URL + `/resources/cards/backcard.jpg style="width: 100%; filter: grayscale(100%);" loading="lazy">`
+			image.src = BASE_URL + '/resources/cards/backcard.jpg';
+			image.style = 'width: 100%; filter: grayscale(100%);';
 		}
-		html += `</a>`;
+		image.loading = 'lazy';
 		
 		// add name
-		html += `<div style="font-weight: bold;">`;
-		html += `<p class="ita-text">`+ element.item.name_ita + `</p>`;
-		html += `<p class="eng-text">`+ element.item.name_eng + `</p>`;
-		html += `</div></div>`;
-	});
+		const name = document.createElement('div');
+		name.style = 'font-weight: bold;';
 
-	document.getElementById('search-results').innerHTML = html;
+		const ita = document.createElement('p');
+		ita.className = 'ita-text';
+		ita.innerText = element.item.name_ita;
+
+		const eng = document.createElement('p');
+		eng.className = 'eng-text';
+		eng.innerText = element.item.name_eng;
+
+		link.appendChild(image);
+
+		name.appendChild(ita);
+		name.append(eng);
+
+		main.appendChild(link);
+		main.appendChild(name);
+
+		target.appendChild(main);
+	});
 
 }
 
 function clearSearch() {
-	document.getElementById('search-results').innerHTML = '';
+	// TODO: clear options as well
+	document.getElementById('search-results').replaceChildren();
 	document.getElementById('search-query').value = '';
 }
