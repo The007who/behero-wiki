@@ -54,3 +54,14 @@ progress::-webkit-progress-value {
 ul li a p:hover{
     color: #d2a64d;
 }
+.options {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.options div {
+    display: flex;
+}
+.options div div {
+    margin-right: 1em;
+}

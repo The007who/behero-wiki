@@ -16,6 +16,33 @@ var fuseOptions = {
 	keys: []
 };
 
+const ids = [
+	[
+		'lost-check',
+		'golden-check',
+		'enchanted-check',
+		'frozen-check',
+		'new-check',
+		'nightmare-check'
+	],
+	[
+		'warrior-check',
+		'magician-check',
+		'adventurer-check',
+		'knight-check',
+		'alchemist-check',
+		'ninja-check'
+	],
+	[
+		'head-check',
+		'body-check',
+		'feet-check',
+		'weapon-check',
+		'shield-check',
+		'companion-check'
+	]
+];
+
 function makeSearch() {
 	let searchPattern = document.getElementById('search-query').value;
 	fuseOptions.keys = [];
@@ -47,42 +74,17 @@ function makeSearch() {
 	
 	// search limit
 	let limit = Number(document.getElementById('search-limit').value);
+	if (limit < 0) limit = 0;
 	response = response.slice(0, limit);
 
 	createHtml(response);
 }
 
 function getOptions() {
-	let output = [[], [], []]
-
-	const ids = [
-		[
-			'lost-check',
-			'golden-check',
-			'enchanted-check',
-			'frozen-check',
-			'new-check',
-			'nightmare-check'
-		],
-		[
-			'warrior-check',
-			'magician-check',
-			'adventurer-check',
-			'knight-check',
-			'alchemist-check',
-			'ninja-check'
-		],
-		[
-			'head-check',
-			'body-check',
-			'feet-check',
-			'weapon-check',
-			'shield-check',
-			'companion-check'
-		]
-	]
+	let output = [[], [], []];
 
 	for (let x=0; x<=2; x++) {
+		console.log(ids);
 		ids[x].forEach(element => {
 			if (document.getElementById(element).checked) {
 				output[x].push(checkToAttribute(element));
@@ -93,7 +95,7 @@ function getOptions() {
 	// if empty include all
 	for (let x=0; x<=2; x++) {
 		if (output[x].length == 0) {
-			let y = ids[x];
+			let y = structuredClone(ids[x]);
 			for (z=0; z<=5; z++) {
 				y[z] = checkToAttribute(y[z]);
 			}
@@ -128,17 +130,23 @@ function checkToAttribute(checkName) {
 }
 
 function createHtml(response) {
-	if (response.length == 0) {
-		if (sessionStorage.getItem('lang') == 'ita') {
-			document.getElementById('search-results').innerHTML = 'Nessun risultato.';
-		} else {
-			document.getElementById('search-results').innerHTML = 'Nothing found.';
-		}
-		return;
-	}
-
 	const target = document.getElementById('search-results');
 	target.replaceChildren();
+	
+	if (response.length == 0) {
+		const ita = document.createElement('p');
+		ita.className = 'ita-text';
+		ita.innerText = 'Nessun risultato.';
+
+		const eng = document.createElement('p');
+		eng.className = 'eng-text';
+		eng.innerText = 'Nothing found.';
+
+		target.appendChild(ita);
+		target.appendChild(eng);
+		
+		return;
+	}
 
 	response.forEach(element => {
 		const main = document.createElement('div');
@@ -188,4 +196,11 @@ function clearSearch() {
 	// TODO: clear options as well
 	document.getElementById('search-results').replaceChildren();
 	document.getElementById('search-query').value = '';
+	
+	for (let x=0; x<=2; x++) {
+		ids[x].forEach(element => {
+			document.getElementById(element).checked = false;
+		});
+	}
+
 }
