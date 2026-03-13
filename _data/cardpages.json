@@ -1284,7 +1284,7 @@
                 "name_eng": "Targe of the Wanderer",
                 "name_ita": "Copertura del Vagabondo",
                 "image_path": "wanderer/targe-of-the-wanderer.jpg",
-                "slot": "body",
+                "slot": "shield",
                 "attack": [0, 1],
                 "defense": [3, 4],
                 "speed": [2, 2]
