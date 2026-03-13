@@ -921,7 +921,7 @@
             {
                 "name_eng": "Guard of Shadows",
                 "name_ita": "Guardia delle Ombre",
-                "slot": "companion",
+                "slot": "head",
                 "image_path": "shadows/guard-of-shadows.jpg",
                 "attack": [0, 0],
                 "defense": [4, 5],

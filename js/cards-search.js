@@ -84,7 +84,6 @@ function getOptions() {
 	let output = [[], [], []];
 
 	for (let x=0; x<=2; x++) {
-		console.log(ids);
 		ids[x].forEach(element => {
 			if (document.getElementById(element).checked) {
 				output[x].push(checkToAttribute(element));
