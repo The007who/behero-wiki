@@ -36,17 +36,9 @@ permalink: /cards/
     </div>
     <hr>
 
-
     <p>
-        On the official packaging it says there are more than 800 cards. <br>
-        There are 6 cards for each collection and each collection is a combination of 6 ages and 6 guilds.
-        Meaning that there are at least: 800 / 6 / 6 / 6 = 3.69 ≈ 4 collections(per age and guild). <br>
-        Therefore, there are at least 4 * 6 * 6 * 6 = 864 cards. <br>
-        A confirmed card means a high res scan of it. 
-    </p>
-
-
-    <p>
+        There is one collection per age and guild. <br>
+        Therefore, there are 6 * 6 * 6 = 216 cards. <br>
         <!-- count how many cards -->
         {%- assign count = 0 -%}
         {%- for collection in site.data.cardpages -%}
@@ -56,10 +48,10 @@ permalink: /cards/
                 {%- endif -%}
             {%- endfor -%}
         {%- endfor -%}
-        Total confirmed cards: <span style="font-weight: bold;">{{ count }}/864 
-            ({{ count | times: 100 | divided_by: 864 }}%)</span>
+        Total confirmed cards: <span style="font-weight: bold;">{{ count }}/216 
+            ({{ count | times: 100 | divided_by: 216 }}%)</span>
 
-        <progress value="{{ count }}" max="864"></progress>
+        <progress value="{{ count }}" max="216"></progress>
     </p>
 
     <h1>Card List</h1>
