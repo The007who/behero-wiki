@@ -49,31 +49,23 @@ title: {{ page.name_ita }}
                         <p class="eng-text">{{ card.name_eng }}</p>
                     </div>
                     
-                    <p>Attack: [{{ card.attack[0] }}|{{ card.attack[1] }}]</p>
-                    <p>Defense: [{{ card.defense[0] }}|{{ card.defense[1] }}]</p>
-                    <p>Speed: [{{ card.speed[0] }}|{{ card.speed[1] }}]</p>
-                    
-                    {% if card.barcode %}
+                    {%- if card.barcode -%}
                     <p>Barcode: {{ card.barcode }}</p>
-                    {% endif %}
+                    {%- endif -%}
 
-                    {% if card.sound_path_ita %}
+                    {%- if card.sound_path_ita -%}
                     <button class="soundBtn" onclick="playSound('{{ card.sound_path_ita }}');"><img src="{{ 'resources/layout/speaker-filled-audio-tool.png' | relative_url}}"></button>
-                    {% endif %}
-                    {% if card.sound_path_eng %}
+                    {%- endif -%}
+                    {%- if card.sound_path_eng -%}
                     <button class="soundBtn" onclick="playSound('{{ card.sound_path_eng }}');"><img src="{{ 'resources/layout/speaker-filled-audio-tool.png' | relative_url}}"></button>
-                    {% endif %}
+                    {%- endif -%}
 
-
-                    <div class="border author-container">
-                        {%- if card.author -%}
+                    {%- if card.author -%}
+                        <div class="border author-container">
                             <p class="ita-text">Caricato da: {{ card.author }}</p>
                             <p class="eng-text">Uploaded by: {{ card.author }}</p>
-                        {%- else -%}
-                            <p class="ita-text">Caricato da: The007who</p>
-                            <p class="eng-text">Uploaded by: The007who</p>
-                        {%- endif -%}
-                    </div>
+                        </div>
+                    {%- endif -%}
                 </div>
             </div>
         {%- endfor -%}
