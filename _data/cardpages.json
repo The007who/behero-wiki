@@ -257,8 +257,7 @@
                 "slot": "feet",
                 "attack": [0, 0],
                 "defense": [5, 5],
-                "speed": [1, 2],
-                "author": "ThatOneLordy"
+                "speed": [1, 2]
             },
             {
                 "name_eng": "Jerkin of Destruction",
