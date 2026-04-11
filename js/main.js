@@ -27,9 +27,12 @@ function startUp() {
 
             msgLength += new_date.length + message.length + 2;
             if (msgLength < 200) {
-                return `<li><a href="${link}">${new_date}: ${message}</a></li>`;
-            } else {
-                return '';
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = link;
+                a.innerText = `${new_date}: ${message}`;
+                li.appendChild(a);
+                return li;
             }
         });
 

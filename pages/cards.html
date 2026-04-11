@@ -168,10 +168,15 @@ permalink: /cards/
                 <ul style="display: flex; flex-direction: column; flex-wrap: wrap; align-content: flex-start; height: 21em; padding-left: 3%;">
                     {%- for collection_list in site.data.cardpages -%}
                         {%- if collection_list.age == age -%}
+                            
+                            {%- assign count = 0 -%}
+                            {%- for card in collection_list.cards -%}
+                                {%- if card.image_path -%} {%- assign count = count | plus: 1 -%} {%- endif -%}
+                            {%- endfor -%}
                             <li style="padding-right: 2.5em;">
-                                <a style="font-weight: bold; color: white;" href="{{ collection_list.name_eng | datapage_url: 'collection' | relative_url }}">
-                                    <p class="ita-text">{{ collection_list.name_ita }}( {{ collection_list.cards | size }} )</p>
-                                    <p class="eng-text">{{ collection_list.name_eng }}( {{ collection_list.cards | size }} )</p>
+                                <a id="{{ collection_list.guild_ita }}" style="font-weight: bold;" href="{{ collection_list.name_eng | datapage_url: 'collection' | relative_url }}">
+                                    <p class="ita-text">{{ collection_list.name_ita }}( {{ count }} )</p>
+                                    <p class="eng-text">{{ collection_list.name_eng }}( {{ count }} )</p>
                                 </a>
                             </li>
                         {%- endif -%}
