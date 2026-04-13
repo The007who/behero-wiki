@@ -49,10 +49,6 @@ title: {{ page.name_ita }}
                         <p class="eng-text">{{ card.name_eng }}</p>
                     </div>
                     
-                    {%- if card.barcode -%}
-                    <p>Barcode: {{ card.barcode }}</p>
-                    {%- endif -%}
-
                     {%- if card.sound_path_ita -%}
                     <button class="soundBtn" onclick="playSound('{{ card.sound_path_ita }}');"><img src="{{ 'resources/layout/speaker-filled-audio-tool.png' | relative_url}}"></button>
                     {%- endif -%}
@@ -71,6 +67,11 @@ title: {{ page.name_ita }}
         {%- endfor -%}
     </div>
 
+    {% if page.pixel_set %}
+    <div style="display: flex; justify-content: center; image-rendering: pixelated;">
+        <img style="width: 30%;" src="{{ 'resources/cards/' | append: page.pixel_set | relative_url }}" alt="">
+    </div>
+    {% endif %}
 
 </article>
 

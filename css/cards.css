@@ -25,7 +25,7 @@
     width: 30%;
 }
 .collection-list-header {
-    top: 3.5%;
+    top: 2.5%;
     left: 2%;
 }
 .collection-list-header h1 {
@@ -64,4 +64,22 @@ ul li a p:hover{
 }
 .options div div {
     margin-right: 1em;
+}
+#Guerriero {
+    color: #999999;
+}
+#Cavaliere {
+    color: #56a1f5;
+}
+#Mago {
+    color: #d632de;
+}
+#Alchimista {
+    color: #ea6b0a;
+}
+#Avventuriero {
+    color: #88ba2a;
+}
+#Ninja {
+    color: #c15257;
 }

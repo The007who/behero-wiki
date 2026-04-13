@@ -14,10 +14,9 @@ function startUp() {
         "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
     ]
 
-    let msgLength = 0;
     fetch('https://api.github.com/repos/The007who/behero-wiki/commits').then(response => response.json())
     .then(data => {
-        let commits = data.map(commit => {
+        let commits = data.slice(0, 10).map(commit => {
             const date = commit.commit.author.date;
             const message = commit.commit.message;
             const link = commit.html_url;
@@ -25,17 +24,18 @@ function startUp() {
             const new_date = date.substring(8, 10) + months[date.substring(5, 7) - 1]
                 + date.substring(0, 4);
 
-            msgLength += new_date.length + message.length + 2;
-            if (msgLength < 200) {
-                return `<li><a href="${link}">${new_date}: ${message}</a></li>`;
-            } else {
-                return '';
-            }
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = link;
+            a.innerText = `${new_date}: ${message}`;
+            li.appendChild(a);
+            return li;
+            
         });
 
-        commits = commits.join('');
-        document.getElementById('commit-history').innerHTML = commits;
-        sessionStorage.setItem('newsQuery', commits);
+        document.getElementById('commit-history').append(...commits);
+        const htmlstrings = commits.map(node => node.outerHTML).join('');
+        sessionStorage.setItem('newsQuery', htmlstrings);
     });
 }
 
