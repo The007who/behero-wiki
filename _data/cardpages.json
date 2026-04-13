@@ -166,6 +166,7 @@
             {
                 "name_eng": "Crown of the Dark Magus",
                 "name_ita": "Corona del Mago Oscuro",
+                "image_path": "dark-magus/crown-of-the-dark-magus.jpg",
                 "slot": "head",
                 "attack": [2, 3],
                 "defense": [4, 4],
@@ -214,6 +215,7 @@
                 "name_eng": "Crown of Darkness",
                 "name_ita": "Corona dell'Oscurità",
                 "slot": "head",
+                "image_path": "darkness/crown-of-darkness.jpg",
                 "attack": [1, 2],
                 "defense": [5, 6],
                 "speed": [0, 1]
@@ -259,6 +261,7 @@
             {
                 "name_eng": "Shoes of Destruction",
                 "name_ita": "Calzature della Distruzione",
+                "image_path": "destruction/shoes-of-destruction.jpg",
                 "slot": "feet",
                 "attack": [0, 0],
                 "defense": [5, 5],
@@ -1160,6 +1163,7 @@
                 "name_eng": "Blade of Shadows",
                 "name_ita": "Spada delle Ombre",
                 "slot": "weapon",
+                "image_path": "shadows/blade-of-shadows.jpg",
                 "attack": [4, 5],
                 "defense": [0, 0],
                 "speed": [1, 2]
@@ -1188,6 +1192,7 @@
                 "name_eng": "Tunic of the Shrieking Maiden",
                 "name_ita": "Tunica della Fanciulla Urlante",
                 "slot": "body",
+                "image_path": "shrieking-maiden/tunic-of-the-shrieking-maiden.jpg",
                 "attack": [1, 2],
                 "defense": [2, 3],
                 "speed": [2, 2]
@@ -1537,6 +1542,7 @@
                 "name_eng": "Vest of the Trickster",
                 "name_ita": "Veste dell'Imbroglione",
                 "slot": "body",
+                "image_path": "trickster/vest-of-the-trickster.jpg",
                 "attack": [2, 2],
                 "defense": [2, 3],
                 "speed": [3, 4]
