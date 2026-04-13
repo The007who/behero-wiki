@@ -71,6 +71,18 @@ function makeSearch() {
 			response.splice(i, 1);
 		}
 	}
+
+	// image option
+	let option = getImageOption();
+	if (option != 'both') {
+		for (i = response.length - 1; i >= 0; i--) {
+			if ('image_path' in response[i].item && option === 'no') {
+				response.splice(i, 1);
+			} else if (!('image_path' in response[i].item) && option === 'only') {
+				response.splice(i, 1);
+			}
+		}
+	}
 	
 	// search limit
 	let limit = Number(document.getElementById('search-limit').value);
@@ -78,6 +90,18 @@ function makeSearch() {
 	response = response.slice(0, limit);
 
 	createHtml(response);
+}
+
+function getImageOption() {
+	if (document.getElementById('img-both').checked) {
+		return 'both';
+	} else if (document.getElementById('img-only').checked) {
+		return 'only';
+	} else if (document.getElementById('img-no').checked) {
+		return 'no';
+	} else {
+		console.log("Invalid image option");
+	}
 }
 
 function getOptions() {
@@ -195,6 +219,10 @@ function clearSearch() {
 	// TODO: clear options as well
 	document.getElementById('search-results').replaceChildren();
 	document.getElementById('search-query').value = '';
+
+	document.getElementById('img-both').checked = true;
+	document.getElementById('img-only').checked = false;
+	document.getElementById('img-no').checked = false;
 	
 	for (let x=0; x<=2; x++) {
 		ids[x].forEach(element => {
