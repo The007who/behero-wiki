@@ -123,7 +123,7 @@
                 "speed": [1, 2]
             },
             {
-                "name_eng": "Protector of the Crystal Conch",
+                "name_eng": "Protector of the Cristal Conch",
                 "name_ita": "Protezione della Conchiglia di Cristallo",
                 "slot": "shield",
                 "attack": [1, 2],
@@ -345,9 +345,9 @@
                 "name_eng": "Dagger of the Drifting Maiden",
                 "name_ita": "Pugnale della Fanciulla in Fuga",
                 "slot": "weapon",
-                "attack": [2, 2],
-                "defense": [2, 3],
-                "speed": [1, 2]
+                "attack": [1, 2],
+                "defense": [1, 1],
+                "speed": [3, 4]
             }
         ]
     },
@@ -599,14 +599,6 @@
                 "attack": [3, 4],
                 "defense": [2, 2],
                 "speed": [0, 1]
-            },
-            {
-                "name_eng": "Shield of Good Intentions",
-                "name_ita": "Scudo delle Buone Intenzioni",
-                "slot": "shield",
-                "attack": ["?", "?"],
-                "defense": ["?", "?"],
-                "speed": ["?", "?"]
             },
             {
                 "name_eng": "Sabatons of Good Intentions",
@@ -871,7 +863,7 @@
         "guild_eng": "Warrior",
         "guild_ita": "Guerriero",
         "desc_eng": "Inflict greater damage when equipped with multiple pieces of Odysseus' garb.",
-        "desc_ita": "Infliggi danni maggiori se sei equipaggiato (?) elementi degli abiti di Odisseo.",
+        "desc_ita": "Infliggi danni maggiori se sei equipaggiato con più elementi degli abiti di Odisseo.",
         "cards": [
             {
                 "name_eng": "Helm of Odysseus",
@@ -891,7 +883,7 @@
                 "speed": [0, 1]
             },
             {
-                "name_eng": "Aex of Odysseus",
+                "name_eng": "Axe of Odysseus",
                 "name_ita": "Ascia di Odisseo",
                 "slot": "weapon",
                 "attack": [2, 3],
@@ -1162,14 +1154,6 @@
                 "speed": [2, 2]
             },
             {
-                "name_eng": "Mace of the Shrieking Maiden",
-                "name_ita": "??? della Fanciulla Urlante",
-                "slot": "weapon",
-                "attack": ["?", "?"],
-                "defense": ["?", "?"],
-                "speed": ["?", "?"]
-            },
-            {
                 "name_eng": "Cap of the Shrieking Maiden",
                 "name_ita": "Berretto della Fanciulla Urlante",
                 "slot": "head",
@@ -1409,7 +1393,7 @@
                 "slot": "body",
                 "attack": [0, 0],
                 "defense": [3, 5],
-                "speed": [1, 2]
+                "speed": [2, 2]
             },
             {
                 "name_eng": "Defense of Thunder",
@@ -1452,9 +1436,9 @@
                 "name_eng": "Spirit of the Tortoise",
                 "name_ita": "Spirito della Tartaruga",
                 "slot": "companion",
-                "attack": [0, 0],
-                "defense": [4, 5],
-                "speed": [1, 2]
+                "attack": [4, 5],
+                "defense": [1, 2],
+                "speed": [0, 0]
             }
         ]
     },
