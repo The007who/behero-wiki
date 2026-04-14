@@ -14,18 +14,36 @@
                 "slot": "feet",
                 "image_path": "apocalypse/shoes-of-the-apocalypse.jpg",
                 "sound_path_ita": "apocalypse/shoes-of-the-apocalypse.mp3",
-                "attack": [2, 4],
-                "defense": [3, 3],
-                "speed": [1, 2]
+                "attack": [
+                    2,
+                    4
+                ],
+                "defense": [
+                    3,
+                    3
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Jerkin of the Apocalypse",
                 "name_ita": "Corazza dell'Apocalisse",
                 "slot": "body",
                 "image_path": "apocalypse/jerkin-of-the-apocalypse.jpg",
-                "attack": [1, 2],
-                "defense": [3, 4],
-                "speed": [1, 1],
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    1,
+                    1
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -33,18 +51,70 @@
                 "name_ita": "Servitore dell'Apocalisse",
                 "image_path": "apocalypse/fiend-of-the-apocalypse.jpg",
                 "slot": "companion",
-                "attack": [1, 2],
-                "defense": [3, 3],
-                "speed": [1, 2]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    3,
+                    3
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Shades of the Apocalypse",
                 "name_ita": "Visore dell'Apocalisse",
                 "slot": "head",
                 "image_path": "apocalypse/shades-of-the-apocalypse.jpg",
-                "attack": [1, 2],
-                "defense": [4, 4],
-                "speed": [1, 3]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    4,
+                    4
+                ],
+                "speed": [
+                    1,
+                    3
+                ]
+            },
+            {
+                "name_eng": "(shield) of Apocalypse",
+                "name_ita": "(scudo) di Apocalisse",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Apocalypse",
+                "name_ita": "(arma) di Apocalisse",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -62,18 +132,36 @@
                 "name_ita": "Veste della Speranza Sepolta",
                 "slot": "body",
                 "image_path": "buried-hope/vest-of-buried-hope.jpg",
-                "attack": [1, 2],
-                "defense": [5, 7],
-                "speed": [2, 3]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    5,
+                    7
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Beast of Buried Hope",
                 "name_ita": "Bestia della Speranza Sepolta",
                 "slot": "companion",
                 "image_path": "buried-hope/beast-of-buried-hope.jpg",
-                "attack": [1, 2],
-                "defense": [5, 7],
-                "speed": [2, 3],
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    5,
+                    7
+                ],
+                "speed": [
+                    2,
+                    3
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -81,18 +169,70 @@
                 "name_ita": "Maschera della Speranza Sepolta",
                 "image_path": "buried-hope/mask-of-buried-hope.jpg",
                 "slot": "head",
-                "attack": [3, 4],
-                "defense": [0, 0],
-                "speed": [2, 3]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Dun of Buried Hope",
                 "name_ita": "Schermo della Speranza Sepolta",
                 "image_path": "buried-hope/dun-of-buried-hope.jpg",
                 "slot": "shield",
-                "attack": [1, 2],
-                "defense": [2, 3],
-                "speed": [2, 2]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    2,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(feet) of Buried Hope",
+                "name_ita": "(piedi) di Speranza Sepolta",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Buried Hope",
+                "name_ita": "(arma) di Speranza Sepolta",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -110,9 +250,18 @@
                 "name_ita": "Mantello della Conchiglia di Cristallo",
                 "slot": "body",
                 "image_path": "crystal-conch/cloak-of-the-crystal-conch.jpg",
-                "attack": [0, 0],
-                "defense": [5, 7],
-                "speed": [0, 0],
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    5,
+                    7
+                ],
+                "speed": [
+                    0,
+                    0
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -120,18 +269,87 @@
                 "name_ita": "Asta della Conchiglia di Cristallo",
                 "image_path": "crystal-conch/staff-of-the-crystal-conch.jpg",
                 "slot": "weapon",
-                "attack": [1, 2],
-                "defense": [3, 3],
-                "speed": [1, 2]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    3,
+                    3
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Protector of the Cristal Conch",
                 "name_ita": "Protezione della Conchiglia di Cristallo",
                 "image_path": "crystal-conch/protector-of-the-crystal-conch.jpg",
                 "slot": "shield",
-                "attack": [1, 2],
-                "defense": [5, 6],
-                "speed": [0, 1]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    5,
+                    6
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(feet) of Crystal Conch",
+                "name_ita": "(piedi) di Conchiglia di Cristallo",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(companion) of Crystal Conch",
+                "name_ita": "(compagno) di Conchiglia di Cristallo",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(head) of Crystal Conch",
+                "name_ita": "(testa) di Conchiglia di Cristallo",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -149,9 +367,18 @@
                 "name_ita": "Mantello del Mago Oscuro",
                 "slot": "body",
                 "image_path": "dark-magus/cloak-of-the-dark-magus.jpg",
-                "attack": [2, 3],
-                "defense": [3, 4],
-                "speed": [0, 0],
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    0,
+                    0
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -159,18 +386,87 @@
                 "name_ita": "Creatura del Mago Oscuro",
                 "image_path": "dark-magus/creature-of-the-dark-magus.jpg",
                 "slot": "companion",
-                "attack": [2, 3],
-                "defense": [3, 3],
-                "speed": [0, 1]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    3,
+                    3
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Crown of the Dark Magus",
                 "name_ita": "Corona del Mago Oscuro",
                 "image_path": "dark-magus/crown-of-the-dark-magus.jpg",
                 "slot": "head",
-                "attack": [2, 3],
-                "defense": [4, 4],
-                "speed": [0, 2]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    4,
+                    4
+                ],
+                "speed": [
+                    0,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(feet) of Dark Magus",
+                "name_ita": "(piedi) di Mago Oscuro",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Dark Magus",
+                "name_ita": "(scudo) di Mago Oscuro",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Dark Magus",
+                "name_ita": "(arma) di Mago Oscuro",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -189,45 +485,107 @@
                 "slot": "shield",
                 "image_path": "darkness/protector-of-darkness.jpg",
                 "sound_path_ita": "darkness/protector-of-darkness.mp3",
-                "attack": [1, 1],
-                "defense": [3, 4],
-                "speed": [1, 2]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Orb of Darkness",
                 "name_ita": "Bacchetta dell'Oscurità",
                 "image_path": "darkness/orb-of-darkness.jpg",
                 "slot": "weapon",
-                "attack": [3, 4],
-                "defense": [2, 2],
-                "speed": [0, 1]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Cloak of Darkness",
                 "name_ita": "Mantello dell'Oscurità",
                 "image_path": "darkness/cloak-of-darkness.jpg",
                 "slot": "body",
-                "attack": [0, 0],
-                "defense": [4, 6],
-                "speed": [2, 3]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    4,
+                    6
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Crown of Darkness",
                 "name_ita": "Corona dell'Oscurità",
                 "slot": "head",
                 "image_path": "darkness/crown-of-darkness.jpg",
-                "attack": [1, 2],
-                "defense": [5, 6],
-                "speed": [0, 1]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    5,
+                    6
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Moccasins of Darkness",
                 "name_ita": "Sandali dell'Oscurità",
                 "image_path": "darkness/moccasins-of-darkness.jpg",
                 "slot": "feet",
-                "attack": [0, 0],
-                "defense": [5, 6],
-                "speed": [0, 1]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    5,
+                    6
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(companion) of Darkness",
+                "name_ita": "(compagno) di Oscurità",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -245,45 +603,107 @@
                 "name_ita": "Dispositivo della Distruzione",
                 "slot": "weapon",
                 "image_path": "destruction/bludgeon-of-destruction.jpg",
-                "attack": [2, 3],
-                "defense": [2, 2],
-                "speed": [1, 2]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Defense of Destruction",
                 "name_ita": "Difesa della Distruzione",
                 "slot": "shield",
                 "image_path": "destruction/defense-of-destruction.jpg",
-                "attack": [0, 0],
-                "defense": [3, 4],
-                "speed": [2, 3]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Shoes of Destruction",
                 "name_ita": "Calzature della Distruzione",
                 "image_path": "destruction/shoes-of-destruction.jpg",
                 "slot": "feet",
-                "attack": [0, 0],
-                "defense": [5, 5],
-                "speed": [1, 2]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    5,
+                    5
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Jerkin of Destruction",
                 "name_ita": "Corazza della Distruzione",
                 "image_path": "destruction/jerkin-of-destruction.jpg",
                 "slot": "body",
-                "attack": [1, 1],
-                "defense": [4, 5],
-                "speed": [2, 3]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Shades of Destruction",
                 "name_ita": "Visore della Distruzione",
                 "image_path": "destruction/shades-of-destruction.jpg",
                 "slot": "head",
-                "attack": [0, 1],
-                "defense": [5, 6],
-                "speed": [1, 2]
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    5,
+                    6
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(companion) of Destruction",
+                "name_ita": "(compagno) di Distruzione",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -301,27 +721,54 @@
                 "name_ita": "Anfibi del Cavalcadraghi",
                 "slot": "feet",
                 "image_path": "dragonrider/sabatons-of-the-dragonrider.jpg",
-                "attack": [1, 1],
-                "defense": [4, 5],
-                "speed": [0, 1]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Shield of the Dragonrider",
                 "name_ita": "Scudo del Cavalcadraghi",
                 "slot": "shield",
                 "image_path": "dragonrider/shield-of-the-dragonrider.jpg",
-                "attack": [0, 0],
-                "defense": [4, 5],
-                "speed": [1, 1]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    1,
+                    1
+                ]
             },
             {
                 "name_eng": "Sword of the Dragonrider",
                 "name_ita": "Lama del Cavalcadraghi",
                 "slot": "weapon",
                 "image_path": "dragonrider/sword-of-the-dragonrider.jpg",
-                "attack": [4, 5],
-                "defense": [1, 1],
-                "speed": [0, 1],
+                "attack": [
+                    4,
+                    5
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    0,
+                    1
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -329,9 +776,52 @@
                 "name_ita": "Bardatura del Cavalcadraghi",
                 "image_path": "dragonrider/breastplate-of-the-dragonrider.jpg",
                 "slot": "body",
-                "attack": [0, 0],
-                "defense": [5, 6],
-                "speed": [1, 3]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    5,
+                    6
+                ],
+                "speed": [
+                    1,
+                    3
+                ]
+            },
+            {
+                "name_eng": "(companion) of Dragonrider",
+                "name_ita": "(compagno) di Cavalcadraghi",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(head) of Dragonrider",
+                "name_ita": "(testa) di Cavalcadraghi",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -349,18 +839,104 @@
                 "name_ita": "Veste della Fanciulla in Fuga",
                 "slot": "body",
                 "image_path": "drifting-maiden/vest-of-the-drifting-maiden.jpg",
-                "attack": [2, 2],
-                "defense": [2, 3],
-                "speed": [1, 2]
+                "attack": [
+                    2,
+                    2
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Dagger of the Drifting Maiden",
                 "name_ita": "Pugnale della Fanciulla in Fuga",
                 "image_path": "drifting-maiden/dagger-of-the-drifting-maiden.jpg",
                 "slot": "weapon",
-                "attack": [1, 2],
-                "defense": [1, 1],
-                "speed": [3, 4]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    3,
+                    4
+                ]
+            },
+            {
+                "name_eng": "(feet) of Drifting Maiden",
+                "name_ita": "(piedi) di Fanciulla in Fuga",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(companion) of Drifting Maiden",
+                "name_ita": "(compagno) di Fanciulla in Fuga",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(head) of Drifting Maiden",
+                "name_ita": "(testa) di Fanciulla in Fuga",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Drifting Maiden",
+                "name_ita": "(scudo) di Fanciulla in Fuga",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -371,52 +947,114 @@
         "guild_eng": "Knight",
         "guild_ita": "Cavaliere",
         "desc_eng": "Force your enemy to skip a turn when carrying items from the Elven Circle.",
-        "desc_ita" : "Costringi il nemico a saltare un turno indossando più oggetti del Cerchio Elfico.",
+        "desc_ita": "Costringi il nemico a saltare un turno indossando più oggetti del Cerchio Elfico.",
         "cards": [
             {
                 "name_eng": "Spirit of the Elven Circle",
                 "name_ita": "Spirito del Cerchio Elfico",
                 "slot": "companion",
                 "image_path": "elven-circle/spirit-of-the-elven-circle.jpg",
-                "attack": [6, 8],
-                "defense": [2, 3],
-                "speed": [0, 1]
+                "attack": [
+                    6,
+                    8
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Breastplate of the Elven Circle",
                 "name_ita": "Bardatura del Cerchio Elfico",
                 "slot": "body",
                 "image_path": "elven-circle/breastplate-of-the-elven-circle.jpg",
-                "attack": [1, 1],
-                "defense": [4, 6],
-                "speed": [0, 0]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    4,
+                    6
+                ],
+                "speed": [
+                    0,
+                    0
+                ]
             },
             {
                 "name_eng": "Cudgel of the Elven Circle",
                 "name_ita": "Randello del Cerchio Elfico",
                 "image_path": "elven-circle/cudgel-of-the-elven-circle.jpg",
                 "slot": "weapon",
-                "attack": [2, 3],
-                "defense": [2, 2],
-                "speed": [1, 2]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Shield of the Elven Circle",
                 "name_ita": "Scudo del Cerchio Elfico",
                 "image_path": "elven-circle/shield-of-the-elven-circle.jpg",
                 "slot": "shield",
-                "attack": [2, 3],
-                "defense": [4, 5],
-                "speed": [0, 1]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Sabatons of the Elven Circle",
                 "name_ita": "Anfibi del Cerchio Elfico",
                 "image_path": "elven-circle/sabatons-of-the-elven-circle.jpg",
                 "slot": "feet",
-                "attack": [3, 4],
-                "defense": [2, 2],
-                "speed": [1, 3]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    1,
+                    3
+                ]
+            },
+            {
+                "name_eng": "(head) of Elven Circle",
+                "name_ita": "(testa) di Cerchio Elfico",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -434,27 +1072,54 @@
                 "name_ita": "Corona della Trappola",
                 "image_path": "entrapment/crown-of-entrapment.jpg",
                 "slot": "head",
-                "attack": [1, 2],
-                "defense": [4, 4],
-                "speed": [0, 1]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    4,
+                    4
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Moccasins of Entrapment",
                 "name_ita": "Sandali della Trappola",
                 "slot": "feet",
                 "image_path": "entrapment/moccasins-of-entrapment.jpg",
-                "attack": [1, 2],
-                "defense": [2, 2],
-                "speed": [2, 3]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Cloak of Entrapment",
                 "name_ita": "Mantello della Trappola",
                 "slot": "body",
                 "image_path": "entrapment/cloak-of-entrapment.jpg",
-                "attack": [0, 1],
-                "defense": [4, 5],
-                "speed": [1, 1],
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    1,
+                    1
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -462,9 +1127,52 @@
                 "name_ita": "Protezione della Trappola",
                 "image_path": "entrapment/protector-of-entrapment.jpg",
                 "slot": "shield",
-                "attack": [0, 1],
-                "defense": [6, 7],
-                "speed": [0, 1]
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    6,
+                    7
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(companion) of Entrapment",
+                "name_ita": "(compagno) di Trappola",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Entrapment",
+                "name_ita": "(arma) di Trappola",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -482,9 +1190,18 @@
                 "name_ita": "Compagno delle Braci Eterne",
                 "slot": "companion",
                 "image_path": "eternal-embers/companion-of-eternal-embers.jpg",
-                "attack": [3, 4],
-                "defense": [0, 0],
-                "speed": [2, 3],
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    2,
+                    3
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -492,9 +1209,86 @@
                 "name_ita": "Spada delle Braci Eterne",
                 "image_path": "eternal-embers/blade-of-eternal-embers.jpg",
                 "slot": "weapon",
-                "attack": [5, 6],
-                "defense": [0, 0],
-                "speed": [0, 1]
+                "attack": [
+                    5,
+                    6
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(feet) of Eternal Embers",
+                "name_ita": "(piedi) di Braci Eterne",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(body) of Eternal Embers",
+                "name_ita": "(corpo) di Braci Eterne",
+                "slot": "body",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(head) of Eternal Embers",
+                "name_ita": "(testa) di Braci Eterne",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Eternal Embers",
+                "name_ita": "(scudo) di Braci Eterne",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -512,18 +1306,36 @@
                 "name_ita": "Difesa della Foresta",
                 "slot": "shield",
                 "image_path": "forest/defense-of-the-forest.jpg",
-                "attack": [0, 1],
-                "defense": [4, 5],
-                "speed": [1, 1]
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    1,
+                    1
+                ]
             },
             {
                 "name_eng": "Fiend of the Forest",
                 "name_ita": "Servitore della Foresta",
                 "slot": "companion",
                 "image_path": "forest/fiend-of-the-forest.jpg",
-                "attack": [2, 3],
-                "defense": [3, 3],
-                "speed": [1, 1],
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    3,
+                    3
+                ],
+                "speed": [
+                    1,
+                    1
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -531,9 +1343,69 @@
                 "name_ita": "Visore della Foresta",
                 "image_path": "forest/shades-of-the-forest.jpg",
                 "slot": "head",
-                "attack": [3, 4],
-                "defense": [1, 1],
-                "speed": [1, 2]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(feet) of Forest",
+                "name_ita": "(piedi) di Foresta",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(body) of Forest",
+                "name_ita": "(corpo) di Foresta",
+                "slot": "body",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Forest",
+                "name_ita": "(arma) di Foresta",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -551,45 +1423,107 @@
                 "name_ita": "Corona della Fortuna",
                 "slot": "head",
                 "image_path": "fortune/crown-of-fortune.jpg",
-                "attack": [2, 3],
-                "defense": [3, 4],
-                "speed": [1, 2]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Cloak of Fortune",
                 "name_ita": "Mantello della Fortuna",
                 "slot": "body",
                 "image_path": "fortune/cloak-of-fortune.jpg",
-                "attack": [2, 3],
-                "defense": [6, 8],
-                "speed": [0, 1]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    6,
+                    8
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Staff of Fortune",
                 "name_ita": "Asta della Fortuna",
                 "image_path": "fortune/staff-of-fortune.jpg",
                 "slot": "weapon",
-                "attack": [4, 5],
-                "defense": [1, 2],
-                "speed": [0, 0]
+                "attack": [
+                    4,
+                    5
+                ],
+                "defense": [
+                    1,
+                    2
+                ],
+                "speed": [
+                    0,
+                    0
+                ]
             },
             {
                 "name_eng": "Creature of Fortune",
                 "name_ita": "Creatura della Fortuna",
                 "image_path": "fortune/creature-of-fortune.jpg",
                 "slot": "companion",
-                "attack": [2, 3],
-                "defense": [2, 2],
-                "speed": [1, 2]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Protector of Fortune",
                 "name_ita": "Protezione della Fortuna",
                 "image_path": "fortune/protector-of-fortune.jpg",
                 "slot": "shield",
-                "attack": [0, 0],
-                "defense": [6, 8],
-                "speed": [0, 1]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    6,
+                    8
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(feet) of Fortune",
+                "name_ita": "(piedi) di Fortuna",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -607,27 +1541,105 @@
                 "name_ita": "Bardatura delle Buone Intenzioni",
                 "image_path": "good-intentions/breastplate-of-good-intentions.jpg",
                 "slot": "body",
-                "attack": [3, 4],
-                "defense": [2, 3],
-                "speed": [0, 0]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    0,
+                    0
+                ]
             },
             {
                 "name_eng": "Spirit of Good Intentions",
                 "name_ita": "Spirito delle Buone Intenzioni",
                 "slot": "companion",
                 "image_path": "good-intentions/spirit-of-good-intentions.jpg",
-                "attack": [3, 4],
-                "defense": [2, 2],
-                "speed": [0, 1]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Sabatons of Good Intentions",
                 "name_ita": "Anfibi delle Buone Intenzioni",
                 "image_path": "good-intentions/sabatons-of-good-intentions.jpg",
                 "slot": "feet",
-                "attack": [4, 6],
-                "defense": [2, 2],
-                "speed": [0, 1]
+                "attack": [
+                    4,
+                    6
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(head) of Good Intentions",
+                "name_ita": "(testa) di Buone Intenzioni",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Good Intentions",
+                "name_ita": "(scudo) di Buone Intenzioni",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Good Intentions",
+                "name_ita": "(arma) di Buone Intenzioni",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -645,18 +1657,36 @@
                 "name_ita": "Lancia della Luna Nascosta",
                 "image_path": "hidden-crescent/spear-of-the-hidden-crescent.jpg",
                 "slot": "weapon",
-                "attack": [5, 6],
-                "defense": [0, 1],
-                "speed": [0, 0]
+                "attack": [
+                    5,
+                    6
+                ],
+                "defense": [
+                    0,
+                    1
+                ],
+                "speed": [
+                    0,
+                    0
+                ]
             },
             {
                 "name_eng": "Spirit of the Hidden Crescent",
                 "name_ita": "Spirito della Luna Nascosta",
                 "slot": "companion",
                 "image_path": "hidden-crescent/spirit-of-the-hidden-crescent.jpg",
-                "attack": [3, 4],
-                "defense": [1, 1],
-                "speed": [1, 2],
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    1,
+                    2
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -664,9 +1694,69 @@
                 "name_ita": "Scudo della Luna Nascosta",
                 "image_path": "hidden-crescent/shield-of-the-hidden-crescent.jpg",
                 "slot": "shield",
-                "attack": [1, 1],
-                "defense": [5, 6],
-                "speed": [0, 2]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    5,
+                    6
+                ],
+                "speed": [
+                    0,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(feet) of Hidden Crescent",
+                "name_ita": "(piedi) di Luna Nascosta",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(body) of Hidden Crescent",
+                "name_ita": "(corpo) di Luna Nascosta",
+                "slot": "body",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(head) of Hidden Crescent",
+                "name_ita": "(testa) di Luna Nascosta",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -684,9 +1774,18 @@
                 "name_ita": "Alleato dei Giardini Nascosti",
                 "slot": "companion",
                 "image_path": "hidden-gardens/ally-of-the-hidden-gardens.jpg",
-                "attack": [1, 2],
-                "defense": [1, 1],
-                "speed": [3, 4],
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    3,
+                    4
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -694,18 +1793,87 @@
                 "name_ita": "Mazza dei Giardini Nascosti",
                 "image_path": "hidden-gardens/mace-of-the-hidden-gardens.jpg",
                 "slot": "weapon",
-                "attack": [3, 4],
-                "defense": [0, 1],
-                "speed": [2, 2]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    0,
+                    1
+                ],
+                "speed": [
+                    2,
+                    2
+                ]
             },
             {
                 "name_eng": "Cap of Hidden Gardens",
                 "name_ita": "Berretto dei Giardini Nascosti",
                 "image_path": "hidden-gardens/cap-of-hidden-gardens.jpg",
                 "slot": "head",
-                "attack": [1, 2],
-                "defense": [2, 3],
-                "speed": [3, 4]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    3,
+                    4
+                ]
+            },
+            {
+                "name_eng": "(feet) of Hidden Gardens",
+                "name_ita": "(piedi) di Giardini Nascosti",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(body) of Hidden Gardens",
+                "name_ita": "(corpo) di Giardini Nascosti",
+                "slot": "body",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Hidden Gardens",
+                "name_ita": "(scudo) di Giardini Nascosti",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -724,18 +1892,36 @@
                 "slot": "head",
                 "image_path": "horns/helm-of-horns.jpg",
                 "sound_path_ita": "horns/helm-of-horns.mp3",
-                "attack": [2, 3],
-                "defense": [0, 0],
-                "speed": [3, 4]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    3,
+                    4
+                ]
             },
             {
                 "name_eng": "Companion of Horns",
                 "name_ita": "Compagno di Corno",
                 "slot": "companion",
                 "image_path": "horns/companion-of-horns.jpg",
-                "attack": [4, 5],
-                "defense": [1, 1],
-                "speed": [0, 1],
+                "attack": [
+                    4,
+                    5
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    0,
+                    1
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -743,9 +1929,69 @@
                 "name_ita": "Guardia di Corno",
                 "image_path": "horns/guard-of-horns.jpg",
                 "slot": "shield",
-                "attack": [2, 3],
-                "defense": [2, 3],
-                "speed": [1, 1]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    1,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(feet) of Horns",
+                "name_ita": "(piedi) di Corno",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(body) of Horns",
+                "name_ita": "(corpo) di Corno",
+                "slot": "body",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Horns",
+                "name_ita": "(arma) di Corno",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -763,18 +2009,36 @@
                 "name_ita": "Copertura della Mano di Ferro",
                 "slot": "shield",
                 "image_path": "iron-hand/targe-of-the-iron-hand.jpg",
-                "attack": [1, 1],
-                "defense": [3, 5],
-                "speed": [2, 3]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    3,
+                    5
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Soles of the Iron Hand",
                 "name_ita": "Scarpe della Mano di Ferro",
                 "slot": "feet",
                 "image_path": "iron-hand/soles-of-the-iron-hand.jpg",
-                "attack": [0, 1],
-                "defense": [1, 1],
-                "speed": [4, 5],
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    4,
+                    5
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -782,18 +2046,70 @@
                 "name_ita": "Tunica della Mano di Ferro",
                 "image_path": "iron-hand/tunic-of-the-iron-hand.jpg",
                 "slot": "body",
-                "attack": [0, 0],
-                "defense": [2, 4],
-                "speed": [3, 3]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    2,
+                    4
+                ],
+                "speed": [
+                    3,
+                    3
+                ]
             },
             {
                 "name_eng": "Cap of the Iron Hand",
                 "name_ita": "Berretto della Mano di Ferro",
                 "image_path": "iron-hand/cap-of-the-iron-hand.jpg",
                 "slot": "head",
-                "attack": [0, 1],
-                "defense": [3, 3],
-                "speed": [2, 3]
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    3,
+                    3
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "name_eng": "(companion) of Iron Hand",
+                "name_ita": "(compagno) di Mano di Ferro",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Iron Hand",
+                "name_ita": "(arma) di Mano di Ferro",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -811,36 +2127,106 @@
                 "name_ita": "Sandali della Natura",
                 "slot": "feet",
                 "image_path": "nature/moccasins-of-nature.jpg",
-                "attack": [2, 4],
-                "defense": [4, 4],
-                "speed": [0, 1]
+                "attack": [
+                    2,
+                    4
+                ],
+                "defense": [
+                    4,
+                    4
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Protector of Nature",
                 "name_ita": "Protezione della Natura",
                 "slot": "shield",
                 "image_path": "nature/protector-of-nature.jpg",
-                "attack": [1, 2],
-                "defense": [4, 5],
-                "speed": [0, 0]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    0,
+                    0
+                ]
             },
             {
                 "name_eng": "Crown of Nature",
                 "name_ita": "Corona della Natura",
                 "image_path": "nature/crown-of-nature.jpg",
                 "slot": "head",
-                "attack": [4, 5],
-                "defense": [1, 1],
-                "speed": [0, 1]
+                "attack": [
+                    4,
+                    5
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Creature of Nature",
                 "name_ita": "Creatura della Natura",
                 "image_path": "nature/creature-of-nature.jpg",
                 "slot": "companion",
-                "attack": [3, 4],
-                "defense": [2, 3],
-                "speed": [0, 0]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "name_eng": "(body) of Nature",
+                "name_ita": "(corpo) di Natura",
+                "slot": "body",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Nature",
+                "name_ita": "(arma) di Natura",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -858,9 +2244,18 @@
                 "name_ita": "Mazza di Oceana",
                 "slot": "weapon",
                 "image_path": "oceana/mace-of-oceana.jpg",
-                "attack": [0, 1],
-                "defense": [2, 2],
-                "speed": [3, 4]
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    3,
+                    4
+                ]
             },
             {
                 "name_eng": "Tunic of Oceana",
@@ -868,18 +2263,87 @@
                 "slot": "body",
                 "image_path": "oceana/tunic-of-oceana.jpg",
                 "sound_path_ita": "oceana/tunic-of-oceana.mp3",
-                "attack": [1, 1],
-                "defense": [3, 4],
-                "speed": [1, 2]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Targe of Oceana",
                 "name_ita": "Copertura di Oceana",
                 "image_path": "oceana/targe-of-oceana.jpg",
                 "slot": "shield",
-                "attack": [0, 0],
-                "defense": [4, 6],
-                "speed": [2, 3]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    4,
+                    6
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "name_eng": "(feet) of Oceana",
+                "name_ita": "(piedi) di Oceana",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(companion) of Oceana",
+                "name_ita": "(compagno) di Oceana",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(head) of Oceana",
+                "name_ita": "(testa) di Oceana",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -896,27 +2360,105 @@
                 "name_eng": "Helm of Odysseus",
                 "name_ita": "Elmo di Odisseo",
                 "slot": "head",
-                "attack": [1, 1],
-                "defense": [2, 3],
-                "speed": [2, 3]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Armor of Odysseus",
                 "name_ita": "Armatura di Odisseo",
                 "image_path": "odysseus/armor-of-odysseus.jpg",
                 "slot": "body",
-                "attack": [1, 1],
-                "defense": [4, 5],
-                "speed": [0, 1]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Axe of Odysseus",
                 "name_ita": "Ascia di Odisseo",
                 "image_path": "odysseus/axe-of-odysseus.jpg",
                 "slot": "weapon",
-                "attack": [2, 3],
-                "defense": [1, 1],
-                "speed": [2, 3]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "name_eng": "(feet) of Odysseus",
+                "name_ita": "(piedi) di Odisseo",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(companion) of Odysseus",
+                "name_ita": "(compagno) di Odisseo",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Odysseus",
+                "name_ita": "(scudo) di Odisseo",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -934,27 +2476,105 @@
                 "name_ita": "Compagno del Pericolo",
                 "slot": "companion",
                 "image_path": "peril/companion-of-peril.jpg",
-                "attack": [3, 4],
-                "defense": [1, 1],
-                "speed": [1, 2]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Boots of Peril",
                 "name_ita": "Stivali del Pericolo",
                 "slot": "feet",
                 "image_path": "peril/boots-of-peril.jpg",
-                "attack": [4, 6],
-                "defense": [1, 1],
-                "speed": [1, 2]
+                "attack": [
+                    4,
+                    6
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Armor of Peril",
                 "name_ita": "Armatura del Pericolo",
                 "image_path": "peril/armor-of-peril.jpg",
                 "slot": "body",
-                "attack": [3, 4],
-                "defense": [2, 2],
-                "speed": [0, 1]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(head) of Peril",
+                "name_ita": "(testa) di Pericolo",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Peril",
+                "name_ita": "(scudo) di Pericolo",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Peril",
+                "name_ita": "(arma) di Pericolo",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -972,9 +2592,18 @@
                 "name_ita": "Bestia della Rabbia Ribelle",
                 "slot": "companion",
                 "image_path": "rebel-s-rage/beast-of-the-rebel-s-rage.jpg",
-                "attack": [2, 3],
-                "defense": [1, 1],
-                "speed": [2, 3],
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    2,
+                    3
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -982,9 +2611,86 @@
                 "name_ita": "Veste della Rabbia Ribelle",
                 "image_path": "rebel-s-rage/vest-of-the-rebel-s-rage.jpg",
                 "slot": "body",
-                "attack": [2, 3],
-                "defense": [1, 2],
-                "speed": [2, 2]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    1,
+                    2
+                ],
+                "speed": [
+                    2,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(feet) of Rebel's Rage",
+                "name_ita": "(piedi) di Rabbia Ribelle",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(head) of Rebel's Rage",
+                "name_ita": "(testa) di Rabbia Ribelle",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Rebel's Rage",
+                "name_ita": "(scudo) di Rabbia Ribelle",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Rebel's Rage",
+                "name_ita": "(arma) di Rabbia Ribelle",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1002,9 +2708,18 @@
                 "name_ita": "Corazza dell'Alta Marea",
                 "slot": "body",
                 "image_path": "rising-tide/jerkin-of-the-rising-tide.jpg",
-                "attack": [1, 1],
-                "defense": [4, 5],
-                "speed": [0, 1],
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    0,
+                    1
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -1012,9 +2727,18 @@
                 "name_ita": "Tubo dell'Alta Marea",
                 "slot": "weapon",
                 "image_path": "rising-tide/amalgam-of-the-rising-tide.jpg",
-                "attack": [0, 1],
-                "defense": [3, 3],
-                "speed": [2, 3],
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    3,
+                    3
+                ],
+                "speed": [
+                    2,
+                    3
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -1022,9 +2746,69 @@
                 "name_ita": "Difesa dell'Alta Marea",
                 "image_path": "rising-tide/defense-of-the-rising-tide.jpg",
                 "slot": "shield",
-                "attack": [0, 0],
-                "defense": [5, 7],
-                "speed": [1, 2]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    5,
+                    7
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(feet) of Rising Tide",
+                "name_ita": "(piedi) di Alta Marea",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(companion) of Rising Tide",
+                "name_ita": "(compagno) di Alta Marea",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(head) of Rising Tide",
+                "name_ita": "(testa) di Alta Marea",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1042,18 +2826,36 @@
                 "name_ita": "Visore del Sacrificio",
                 "image_path": "sacrifice/shades-of-the-sacrifice.jpg",
                 "slot": "head",
-                "attack": [1, 2],
-                "defense": [3, 4],
-                "speed": [2, 3]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Detonator of the Sacrifice",
                 "name_ita": "Ordigno del Sacrificio",
                 "slot": "weapon",
                 "image_path": "sacrifice/detonator-of-the-sacrifice.jpg",
-                "attack": [3, 4],
-                "defense": [1, 2],
-                "speed": [1, 1],
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    1,
+                    2
+                ],
+                "speed": [
+                    1,
+                    1
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -1061,18 +2863,70 @@
                 "name_ita": "Servitore del Sacrificio",
                 "image_path": "sacrifice/fiend-of-the-sacrifice.jpg",
                 "slot": "companion",
-                "attack": [1, 2],
-                "defense": [2, 2],
-                "speed": [2, 3]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Defense of the Sacrifice",
                 "name_ita": "Difesa del Sacrificio",
                 "image_path": "sacrifice/defense-of-the-sacrifice.jpg",
                 "slot": "shield",
-                "attack": [0, 0],
-                "defense": [6, 8],
-                "speed": [0, 1]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    6,
+                    8
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(feet) of Sacrifice",
+                "name_ita": "(piedi) di Sacrificio",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(body) of Sacrifice",
+                "name_ita": "(corpo) di Sacrificio",
+                "slot": "body",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1091,27 +2945,105 @@
                 "slot": "companion",
                 "image_path": "sand/beast-of-sand.jpg",
                 "sound_path_ita": "sand/beast-of-sand.mp3",
-                "attack": [2, 3],
-                "defense": [0, 0],
-                "speed": [3, 4]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    3,
+                    4
+                ]
             },
             {
                 "name_eng": "Claw of Sand",
                 "name_ita": "Artiglio della Sabbia",
                 "image_path": "sand/claw-of-sand.jpg",
                 "slot": "weapon",
-                "attack": [4, 5],
-                "defense": [0, 0],
-                "speed": [1, 2]
+                "attack": [
+                    4,
+                    5
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Dun of Sand",
                 "name_ita": "Schermo della Sabbia",
                 "image_path": "sand/dun-of-sand.jpg",
                 "slot": "shield",
-                "attack": [1, 1],
-                "defense": [4, 6],
-                "speed": [1, 2]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    4,
+                    6
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(feet) of Sand",
+                "name_ita": "(piedi) di Sabbia",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(body) of Sand",
+                "name_ita": "(corpo) di Sabbia",
+                "slot": "body",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(head) of Sand",
+                "name_ita": "(testa) di Sabbia",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1129,36 +3061,106 @@
                 "name_ita": "Guardia delle Ombre",
                 "slot": "head",
                 "image_path": "shadows/guard-of-shadows.jpg",
-                "attack": [0, 0],
-                "defense": [4, 5],
-                "speed": [1, 2]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Boots of Shadows",
                 "name_ita": "Stivali delle Ombre",
                 "image_path": "shadows/boots-of-shadows.jpg",
                 "slot": "feet",
-                "attack": [1, 1],
-                "defense": [3, 4],
-                "speed": [1, 2]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Armor of Shadows",
                 "name_ita": "Armatura delle Ombre",
                 "image_path": "shadows/armor-of-shadows.jpg",
                 "slot": "body",
-                "attack": [0, 0],
-                "defense": [4, 5],
-                "speed": [2, 4]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    2,
+                    4
+                ]
             },
             {
                 "name_eng": "Blade of Shadows",
                 "name_ita": "Spada delle Ombre",
                 "slot": "weapon",
                 "image_path": "shadows/blade-of-shadows.jpg",
-                "attack": [4, 5],
-                "defense": [0, 0],
-                "speed": [1, 2]
+                "attack": [
+                    4,
+                    5
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(companion) of Shadows",
+                "name_ita": "(compagno) di Ombre",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Shadows",
+                "name_ita": "(scudo) di Ombre",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1176,27 +3178,105 @@
                 "name_ita": "Alleato della Fanciulla Urlante",
                 "slot": "companion",
                 "image_path": "shrieking-maiden/ally-of-the-shrieking-maiden.jpg",
-                "attack": [1, 2],
-                "defense": [2, 2],
-                "speed": [2, 3]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Tunic of the Shrieking Maiden",
                 "name_ita": "Tunica della Fanciulla Urlante",
                 "slot": "body",
                 "image_path": "shrieking-maiden/tunic-of-the-shrieking-maiden.jpg",
-                "attack": [1, 2],
-                "defense": [2, 3],
-                "speed": [2, 2]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    2,
+                    2
+                ]
             },
             {
                 "name_eng": "Cap of the Shrieking Maiden",
                 "name_ita": "Berretto della Fanciulla Urlante",
                 "image_path": "shrieking-maiden/cap-of-the-shrieking-maiden.jpg",
                 "slot": "head",
-                "attack": [1, 2],
-                "defense": [3, 3],
-                "speed": [2, 4]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    3,
+                    3
+                ],
+                "speed": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "name_eng": "(feet) of Shrieking Maiden",
+                "name_ita": "(piedi) di Fanciulla Urlante",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Shrieking Maiden",
+                "name_ita": "(scudo) di Fanciulla Urlante",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Shrieking Maiden",
+                "name_ita": "(arma) di Fanciulla Urlante",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1214,27 +3294,105 @@
                 "name_ita": "Stivali d'Argento",
                 "image_path": "silver/boots-of-silver.jpg",
                 "slot": "feet",
-                "attack": [2, 3],
-                "defense": [0, 0],
-                "speed": [3, 4]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    3,
+                    4
+                ]
             },
             {
                 "name_eng": "Helm of Silver",
                 "name_ita": "Elmo d'Argento",
                 "image_path": "silver/helm-of-silver.jpg",
                 "slot": "head",
-                "attack": [2, 3],
-                "defense": [1, 1],
-                "speed": [2, 3]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Armor of Silver",
                 "name_ita": "Armatura d'Argento",
                 "image_path": "silver/armor-of-silver.jpg",
                 "slot": "body",
-                "attack": [2, 2],
-                "defense": [3, 4],
-                "speed": [0, 1]
+                "attack": [
+                    2,
+                    2
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(companion) of Silver",
+                "name_ita": "(compagno) di Argento",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Silver",
+                "name_ita": "(scudo) di Argento",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Silver",
+                "name_ita": "(arma) di Argento",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1252,36 +3410,106 @@
                 "name_ita": "Pugnale della Rivoluzione d'Argento",
                 "slot": "weapon",
                 "image_path": "silver-revolution/dagger-of-the-silver-revolution.jpg",
-                "attack": [7, 9],
-                "defense": [0, 1],
-                "speed": [1, 2]
+                "attack": [
+                    7,
+                    9
+                ],
+                "defense": [
+                    0,
+                    1
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Treads of the Silver Revolution",
                 "name_ita": "Scarponi della Rivoluzione d'Argento",
                 "slot": "feet",
                 "image_path": "silver-revolution/treads-of-the-silver-revolution.jpg",
-                "attack": [1, 2],
-                "defense": [0, 0],
-                "speed": [4, 5]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    4,
+                    5
+                ]
             },
             {
                 "name_eng": "Mask of the Silver Revolution",
                 "name_ita": "Maschera della Rivoluzione d'Argento",
                 "slot": "head",
                 "image_path": "silver-revolution/mask-of-the-silver-revolution.jpg",
-                "attack": [1, 2],
-                "defense": [2, 2],
-                "speed": [2, 3]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Vest of the Silver Revolution",
                 "name_ita": "Veste della Rivoluzione d'Argento",
                 "image_path": "silver-revolution/vest-of-the-silver-revolution.jpg",
                 "slot": "body",
-                "attack": [1, 1],
-                "defense": [1, 3],
-                "speed": [3, 3]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    1,
+                    3
+                ],
+                "speed": [
+                    3,
+                    3
+                ]
+            },
+            {
+                "name_eng": "(companion) of Silver Revolution",
+                "name_ita": "(compagno) di Rivoluzione d'Argento",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(shield) of Silver Revolution",
+                "name_ita": "(scudo) di Rivoluzione d'Argento",
+                "slot": "shield",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1300,27 +3528,54 @@
                 "slot": "weapon",
                 "image_path": "steel/cudgel-of-steel.jpg",
                 "sound_path_ita": "steel/cudgel-of-steel.mp3",
-                "attack": [8, 10],
-                "defense": [0, 2],
-                "speed": [0, 0]
+                "attack": [
+                    8,
+                    10
+                ],
+                "defense": [
+                    0,
+                    2
+                ],
+                "speed": [
+                    0,
+                    0
+                ]
             },
             {
                 "name_eng": "Sabatons of Steel",
                 "name_ita": "Anfibi d'Acciaio",
                 "slot": "feet",
                 "image_path": "steel/sabatons-of-steel.jpg",
-                "attack": [2, 3],
-                "defense": [1, 1],
-                "speed": [2, 3]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Sallet of Steel",
                 "name_ita": "Copricapo d'Acciaio",
                 "slot": "head",
                 "image_path": "steel/sallet-of-steel.jpg",
-                "attack": [2, 3],
-                "defense": [3, 3],
-                "speed": [0, 1],
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    3,
+                    3
+                ],
+                "speed": [
+                    0,
+                    1
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -1328,18 +3583,53 @@
                 "name_ita": "Bardatura d'Acciaio",
                 "image_path": "steel/breastplate-of-steel.jpg",
                 "slot": "body",
-                "attack": [1, 2],
-                "defense": [3, 4],
-                "speed": [1, 1]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    1,
+                    1
+                ]
             },
             {
                 "name_eng": "Shield of Steel",
                 "name_ita": "Scudo d'Acciaio",
                 "image_path": "steel/shield-of-steel.jpg",
                 "slot": "shield",
-                "attack": [1, 2],
-                "defense": [5, 6],
-                "speed": [0, 1]
+                "attack": [
+                    1,
+                    2
+                ],
+                "defense": [
+                    5,
+                    6
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "name_eng": "(companion) of Steel",
+                "name_ita": "(compagno) di Acciaio",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1357,18 +3647,36 @@
                 "name_ita": "Copertura del Cavalcatempeste",
                 "slot": "shield",
                 "image_path": "stormrider/targe-of-the-stormrider.jpg",
-                "attack": [0, 0],
-                "defense": [2, 3],
-                "speed": [3, 4]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    3,
+                    4
+                ]
             },
             {
                 "name_eng": "Soles of the Stormrider",
                 "name_ita": "Scarpe del Cavalcatempeste",
                 "slot": "feet",
                 "image_path": "stormrider/soles-of-the-stormrider.jpg",
-                "attack": [0, 0],
-                "defense": [4, 4],
-                "speed": [2, 3],
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    4,
+                    4
+                ],
+                "speed": [
+                    2,
+                    3
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -1376,27 +3684,71 @@
                 "name_ita": "Tunica del Cavalcatempeste",
                 "image_path": "stormrider/tunic-of-the-stormrider.jpg",
                 "slot": "body",
-                "attack": [1, 1],
-                "defense": [3, 4],
-                "speed": [3, 4]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    3,
+                    4
+                ]
             },
             {
                 "name_eng": "Cap of the Stormrider",
                 "name_ita": "Berretto del Cavalcatempeste",
                 "image_path": "stormrider/cap-of-the-stormrider.jpg",
                 "slot": "head",
-                "attack": [0, 1],
-                "defense": [4, 5],
-                "speed": [2, 3]
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    4,
+                    5
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Bow of the Stormrider",
                 "name_ita": "Arco del Cavalcatempeste",
                 "image_path": "stormrider/bow-of-the-stormrider.jpg",
                 "slot": "weapon",
-                "attack": [2, 3],
-                "defense": [1, 1],
-                "speed": [2, 3]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    1,
+                    1
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "name_eng": "(companion) of Stormrider",
+                "name_ita": "(compagno) di Cavalcatempeste",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1414,9 +3766,18 @@
                 "name_ita": "Calzature del Tuono",
                 "slot": "feet",
                 "image_path": "thunder/shoes-of-thunder.jpg",
-                "attack": [0, 1],
-                "defense": [2, 2],
-                "speed": [3, 4],
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    2,
+                    2
+                ],
+                "speed": [
+                    3,
+                    4
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -1424,27 +3785,88 @@
                 "name_ita": "Visore del Tuono",
                 "image_path": "thunder/shades-of-thunder.jpg",
                 "slot": "head",
-                "attack": [0, 1],
-                "defense": [4, 4],
-                "speed": [1, 2]
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    4,
+                    4
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
             },
             {
                 "name_eng": "Jerkin of Thunder",
                 "name_ita": "Corazza del Tuono",
                 "image_path": "thunder/jerkin-of-thunder.jpg",
                 "slot": "body",
-                "attack": [0, 0],
-                "defense": [3, 5],
-                "speed": [2, 2]
+                "attack": [
+                    0,
+                    0
+                ],
+                "defense": [
+                    3,
+                    5
+                ],
+                "speed": [
+                    2,
+                    2
+                ]
             },
             {
                 "name_eng": "Defense of Thunder",
                 "name_ita": "Difesa del Tuono",
                 "image_path": "thunder/defense-of-thunder.jpg",
                 "slot": "shield",
-                "attack": [1, 1],
-                "defense": [4, 6],
-                "speed": [1, 2]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    4,
+                    6
+                ],
+                "speed": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(companion) of Thunder",
+                "name_ita": "(compagno) di Tuono",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Thunder",
+                "name_ita": "(arma) di Tuono",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1462,27 +3884,105 @@
                 "name_ita": "Copricapo della Tartaruga",
                 "slot": "head",
                 "image_path": "tortoise/sallet-of-the-tortoise.jpg",
-                "attack": [5, 6],
-                "defense": [0, 0],
-                "speed": [0, 1]
+                "attack": [
+                    5,
+                    6
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    0,
+                    1
+                ]
             },
             {
                 "name_eng": "Shield of the Tortoise",
                 "name_ita": "Scudo della Tartaruga",
                 "slot": "shield",
                 "image_path": "tortoise/shield-of-the-tortoise.jpg",
-                "attack": [2, 3],
-                "defense": [3, 4],
-                "speed": [0, 0]
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    0,
+                    0
+                ]
             },
             {
                 "name_eng": "Spirit of the Tortoise",
                 "name_ita": "Spirito della Tartaruga",
                 "slot": "companion",
                 "image_path": "tortoise/spirit-of-the-tortoise.jpg",
-                "attack": [4, 5],
-                "defense": [1, 2],
-                "speed": [0, 0]
+                "attack": [
+                    4,
+                    5
+                ],
+                "defense": [
+                    1,
+                    2
+                ],
+                "speed": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "name_eng": "(feet) of Tortoise",
+                "name_ita": "(piedi) di Tartaruga",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(body) of Tortoise",
+                "name_ita": "(corpo) di Tartaruga",
+                "slot": "body",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Tortoise",
+                "name_ita": "(arma) di Tartaruga",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1500,36 +4000,106 @@
                 "name_ita": "Scarponi dell'Imbroglione",
                 "slot": "feet",
                 "image_path": "trickster/treads-of-the-trickster.jpg",
-                "attack": [1, 1],
-                "defense": [3, 3],
-                "speed": [2, 3]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    3,
+                    3
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Claw of the Trickster",
                 "name_ita": "Artiglio dell'Imbroglione",
                 "image_path": "trickster/claw-of-the-trickster.jpg",
                 "slot": "weapon",
-                "attack": [3, 4],
-                "defense": [0, 0],
-                "speed": [2, 3]
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    2,
+                    3
+                ]
             },
             {
                 "name_eng": "Dun of the Trickster",
                 "name_ita": "Schermo dell'Imbroglione",
                 "image_path": "trickster/dun-of-the-trickster.jpg",
                 "slot": "shield",
-                "attack": [1, 1],
-                "defense": [1, 2],
-                "speed": [3, 4]
+                "attack": [
+                    1,
+                    1
+                ],
+                "defense": [
+                    1,
+                    2
+                ],
+                "speed": [
+                    3,
+                    4
+                ]
             },
             {
                 "name_eng": "Vest of the Trickster",
                 "name_ita": "Veste dell'Imbroglione",
                 "slot": "body",
                 "image_path": "trickster/vest-of-the-trickster.jpg",
-                "attack": [2, 2],
-                "defense": [2, 3],
-                "speed": [3, 4]
+                "attack": [
+                    2,
+                    2
+                ],
+                "defense": [
+                    2,
+                    3
+                ],
+                "speed": [
+                    3,
+                    4
+                ]
+            },
+            {
+                "name_eng": "(companion) of Trickster",
+                "name_ita": "(compagno) di Imbroglione",
+                "slot": "companion",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(head) of Trickster",
+                "name_ita": "(testa) di Imbroglione",
+                "slot": "head",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     },
@@ -1547,9 +4117,18 @@
                 "name_ita": "Berretto del Vagabondo",
                 "slot": "head",
                 "image_path": "wanderer/cap-of-the-wanderer.jpg",
-                "attack": [3, 4],
-                "defense": [0, 0],
-                "speed": [2, 3],
+                "attack": [
+                    3,
+                    4
+                ],
+                "defense": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    2,
+                    3
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -1557,9 +4136,18 @@
                 "name_ita": "Alleato del Vagabondo",
                 "slot": "companion",
                 "image_path": "wanderer/ally-of-the-wanderer.jpg",
-                "attack": [2, 3],
-                "defense": [1, 2],
-                "speed": [2, 2],
+                "attack": [
+                    2,
+                    3
+                ],
+                "defense": [
+                    1,
+                    2
+                ],
+                "speed": [
+                    2,
+                    2
+                ],
                 "author": "ThatOneLordy"
             },
             {
@@ -1567,9 +4155,69 @@
                 "name_ita": "Copertura del Vagabondo",
                 "image_path": "wanderer/targe-of-the-wanderer.jpg",
                 "slot": "shield",
-                "attack": [0, 1],
-                "defense": [3, 4],
-                "speed": [2, 2]
+                "attack": [
+                    0,
+                    1
+                ],
+                "defense": [
+                    3,
+                    4
+                ],
+                "speed": [
+                    2,
+                    2
+                ]
+            },
+            {
+                "name_eng": "(feet) of Wanderer",
+                "name_ita": "(piedi) di Vagabondo",
+                "slot": "feet",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(body) of Wanderer",
+                "name_ita": "(corpo) di Vagabondo",
+                "slot": "body",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
+            },
+            {
+                "name_eng": "(weapon) of Wanderer",
+                "name_ita": "(arma) di Vagabondo",
+                "slot": "weapon",
+                "attack": [
+                    null,
+                    null
+                ],
+                "defense": [
+                    null,
+                    null
+                ],
+                "speed": [
+                    null,
+                    null
+                ]
             }
         ]
     }
