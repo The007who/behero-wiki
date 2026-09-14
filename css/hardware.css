@@ -7,7 +7,10 @@
 .image-sequence {
     display: flex;
 }
-
+model-viewer {
+	width: 100%;
+	height: 500px;
+}
 @media screen and (max-device-width:1024px), (orientation:portrait) {
     .chip-images {
         height: fit-content;

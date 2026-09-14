@@ -5,17 +5,23 @@ permalink: /hardware/
 ---
 <link rel="stylesheet" href="{{ 'css/hardware.css' | relative_url }}">
 
+<script
+  type="module"
+  src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+</script>
+
 <article>
     <h1>Hardware Page</h1>
+    <model-viewer
+      src="{{ 'resources/hardware/console.glb' | relative_url }}"
+      alt="behero-model"
+      camera-controls
+      auto-rotate
+      shadow-intensity="1"
+      camera-orbit="0deg 75deg 1m"
+    >
+    </model-viewer>
 
-    <p>Images of the console:</p>
-    <div class="image-sequence">
-        <img id="img-lazy" width="2250" height="4000" src="{{ 'resources/hardware/IMG20240218181020.jpg'| relative_url }}" width="25%">
-        <img id="img-lazy" width="2250" height="4000" src="{{ 'resources/hardware/IMG20240218181048.jpg'| relative_url }}" width="25%">
-        <img id="img-lazy" width="2250" height="4000" src="{{ 'resources/hardware/IMG20240218181102.jpg'| relative_url }}" width="25%">
-        <img id="img-lazy" width="2250" height="4000" src="{{ 'resources/hardware/IMG20240218181111.jpg'| relative_url }}" width="25%">
-    </div>
-    
     <hr>
 
     <p>
@@ -58,7 +64,7 @@ permalink: /hardware/
                 </li>
             </ul>
         </p>
-        
+
         You can find a <code>.odt</code> version of the hardware documentation <a href="https://github.com/The007who/behero-decomp/blob/main/docs/hardware-documentation.odt">here</a>.
     </p>
 </article>
