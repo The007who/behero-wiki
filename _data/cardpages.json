@@ -318,20 +318,21 @@
                 ]
             },
             {
-                "name_eng": "(companion) of Crystal Conch",
-                "name_ita": "(compagno) di Conchiglia di Cristallo",
+                "name_eng": "Creature of the Crystal Conch",
+                "name_ita": "Creatura della Conchiglia di Cristallo",
+                "image_path": "crystal-conch/creature-of-the-crystal-conch.jpg",
                 "slot": "companion",
                 "attack": [
-                    null,
-                    null
+                    5,
+                    7
                 ],
                 "defense": [
-                    null,
-                    null
+                    3,
+                    4
                 ],
                 "speed": [
-                    null,
-                    null
+                    0,
+                    1
                 ]
             },
             {
@@ -1240,20 +1241,21 @@
                 ]
             },
             {
-                "name_eng": "(body) of Eternal Embers",
-                "name_ita": "(corpo) di Braci Eterne",
+                "name_eng": "Armor of Eternal Embers",
+                "name_ita": "Armatura delle Braci Eterne",
+                "image_path": "eternal-embers/armor-of-eternal-embers.jpg",
                 "slot": "body",
                 "attack": [
-                    null,
-                    null
+                    3,
+                    4
                 ],
                 "defense": [
-                    null,
-                    null
+                    4,
+                    6
                 ],
                 "speed": [
-                    null,
-                    null
+                    1,
+                    2
                 ]
             },
             {
@@ -1357,20 +1359,21 @@
                 ]
             },
             {
-                "name_eng": "(feet) of Forest",
-                "name_ita": "(piedi) di Foresta",
+                "name_eng": "Shoes of the Forest",
+                "name_ita": "Calzature della Foresta",
+                "image_path": "forest/shoes-of-the-forest.jpg",
                 "slot": "feet",
                 "attack": [
-                    null,
-                    null
+                    1,
+                    3
                 ],
                 "defense": [
-                    null,
-                    null
+                    4,
+                    4
                 ],
                 "speed": [
-                    null,
-                    null
+                    1,
+                    2
                 ]
             },
             {
@@ -2427,20 +2430,21 @@
                 ]
             },
             {
-                "name_eng": "(companion) of Odysseus",
-                "name_ita": "(compagno) di Odisseo",
+                "name_eng": "Companion of Odysseus",
+                "name_ita": "Compagno di Odisseo",
+                "image_path": "odysseus/companion-of-odysseus.jpg",
                 "slot": "companion",
                 "attack": [
-                    null,
-                    null
+                    7,
+                    8
                 ],
                 "defense": [
-                    null,
-                    null
+                    1,
+                    2
                 ],
                 "speed": [
-                    null,
-                    null
+                    0,
+                    2
                 ]
             },
             {
@@ -2760,37 +2764,39 @@
                 ]
             },
             {
-                "name_eng": "(feet) of Rising Tide",
-                "name_ita": "(piedi) di Alta Marea",
+                "name_eng": "Shoes of the Rising Tide",
+                "name_ita": "Calzature dell'Alta Marea",
+                "image_path": "rising-tide/shoes-of-the-rising-tide.jpg",
                 "slot": "feet",
                 "attack": [
-                    null,
-                    null
+                    1,
+                    2
                 ],
                 "defense": [
-                    null,
-                    null
+                    3,
+                    3
                 ],
                 "speed": [
-                    null,
-                    null
+                    2,
+                    4
                 ]
             },
             {
-                "name_eng": "(companion) of Rising Tide",
-                "name_ita": "(compagno) di Alta Marea",
+                "name_eng": "Fiend of Rising Tide",
+                "name_ita": "Servitore dell'Alta Marea",
+                "image_path": "rising-tide/fiend-of-the-rising-tide.jpg",
                 "slot": "companion",
                 "attack": [
-                    null,
-                    null
+                    4,
+                    6
                 ],
                 "defense": [
-                    null,
-                    null
+                    3,
+                    4
                 ],
                 "speed": [
-                    null,
-                    null
+                    1,
+                    2
                 ]
             },
             {
@@ -3734,8 +3740,9 @@
                 ]
             },
             {
-                "name_eng": "(companion) of Stormrider",
-                "name_ita": "(compagno) di Cavalcatempeste",
+                "name_eng": "Ally of the Stormrider",
+                "name_ita": "Alleato del Cavalcatempeste",
+                "image_path": "stormrider/ally-of-the-stormrider.jpg",
                 "slot": "companion",
                 "attack": [
                     null,
@@ -3934,37 +3941,39 @@
                 ]
             },
             {
-                "name_eng": "(feet) of Tortoise",
-                "name_ita": "(piedi) di Tartaruga",
+                "name_eng": "Sabatons of the Tortoise",
+                "name_ita": "Anfibi della Tartaruga",
+                "image_path": "tortoise/sabatons-of-the-tortoise.jpg",
                 "slot": "feet",
                 "attack": [
-                    null,
-                    null
+                    3,
+                    5
                 ],
                 "defense": [
-                    null,
-                    null
+                    3,
+                    3
                 ],
                 "speed": [
-                    null,
-                    null
+                    0,
+                    1
                 ]
             },
             {
-                "name_eng": "(body) of Tortoise",
-                "name_ita": "(corpo) di Tartaruga",
+                "name_eng": "Breastplate of the Tortoise",
+                "name_ita": "Bardatura della Tartaruga",
+                "image_path": "tortoise/breastplate-of-the-tortoise.jpg",
                 "slot": "body",
                 "attack": [
-                    null,
-                    null
+                    2,
+                    3
                 ],
                 "defense": [
-                    null,
-                    null
+                    6,
+                    8
                 ],
                 "speed": [
-                    null,
-                    null
+                    0,
+                    1
                 ]
             },
             {
